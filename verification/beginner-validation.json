@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-11",
+  "version": "0.8 runtime-path-help trial",
+  "publish_ready": false,
+  "target": "Windows 11 x64 + Google Chrome; Mac Apple Silicon trial. Windows 8B/31B pinned GGUF CPU-only experimental path.",
+  "automated_tests": {
+    "host": "Mac mini M6 / macOS27.0.1",
+    "python": "ordinary CPython3.12.16 arm64 64bit",
+    "run": 376,
+    "passed": 368,
+    "skipped": 8,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 22.068,
+    "skip_reason": "Real Windows kernel lifecycle (6) and cmd tests (2)"
+  },
+  "safety": {
+    "explicit_experimental_ack_per_load": true,
+    "windows_x64_only": true,
+    "full_gguf_sha256_and_size_verification": true,
+    "pinned_runtime_hashes": true,
+    "cpu_only": true,
+    "cancellable_background_model_verification": true,
+    "stop_quit_and_stale_launch_protection": true,
+    "existing_memory_guard_retained": true,
+    "8b_31b_runtime_manifests_unchanged": true
+  },
+  "baseline_windows_0_8_user_trial": {
+    "separate_ordinary_python_version": "3.14.10",
+    "chrome_launch_confirmed": true,
+    "official_2b_download_flow": "Observed download initiation, followed by working translation; user reports completion",
+    "english_to_japanese_short_translation": {
+      "observed_seconds": 1.48,
+      "source_characters_shown": 193
+    },
+    "offline_condition": "User reports disconnecting after model download; internet-disconnected icon observed. Specific interfaces and complete network isolation not independently verified.",
+    "word_document_full_flow": "Not yet verified on Windows0.8"
+  },
+  "windows_launcher_fix": {
+    "ascii_crlf": true,
+    "failure_branch_cases_on_actual_windows_passed": 6,
+    "manager_selection_fixture_cases_passed": 3,
+    "real_314_runtime_selection_and_check_python_passed": true,
+    "cmd_sha256": "7d95ca257043cbf82da30193e639887b0ef557d25b7a7b665d0c408537e24b99"
+  },
+  "unverified": [
+    "New runtime discovery on actual Windows kernel",
+    "Windows 8B successful translation and resource requirements; attempted once and stopped by memory guard",
+    "Actual Windows 31B operation",
+    "GPU execution (not supported by this Windows trial)",
+    "Windows full suite for this new source",
+    "This Windows0.8 build: Word import, translation, DOCX save/content, exit and restart end to end",
+    "Mac new Python3.14 installation and full initial-download/Word flow",
+    "Actual installer screenshots with annotations",
+    "Native Windows folder-picker freeze cause and fix"
+  ],
+  "distribution_pending": [
+    "Final Win/Mac ZIP validation",
+    "User Word and instructions trial before public release",
+    "Actual annotated installer screenshots",
+    "Public release timing confirmation and GitHub publication"
+  ],
+  "models_bundled": false,
+  "llama_runtime_bundled": false,
+  "python_bundled": false,
+  "live_windows_folder_modified": false,
+  "previous_external_model_trial_review": {
+    "open_p1_p2_findings": 0,
+    "fixed": "Consent is reset when another tab synchronizes a different model or context",
+    "backend_api_tests_passed": 13,
+    "model_ui_tests_passed": 17,
+    "localization_parser_tests_passed": 15,
+    "additional_cancellation_races_passed": 3
+  },
+  "previous_external_model_trial_browser_qa": {
+    "browser": "Google Chrome on Mac",
+    "windows_host_simulated": true,
+    "real_windows_model_execution": false,
+    "default_2b_and_experimental_windows_choices": true,
+    "ja_en_warnings_and_layout": true,
+    "ack_required_and_reset_on_attempt_change_reload": true,
+    "multi_tab_model_context_sync_consent_reset": true,
+    "actual_mac_host_gating": true,
+    "no_raw_translation_keys_or_console_errors": true,
+    "models_and_runtime_execution_blocked_by_fixtures": true,
+    "owned_tabs_and_ephemeral_servers_closed": true,
+    "ui_app_js_sha256": "fd5fdbf5171898f21e387822351d41ecb680b0941776f2fd8a58daa2565e3c8d"
+  },
+  "independent_review": {
+    "open_blocking_findings": 0,
+    "targeted_passed": 112,
+    "additional_passed": 10,
+    "missing_cache_japanese_error_check": "passed",
+    "resolved": [
+      "Root-first ancestor symlink/reparse rejection",
+      "Mapped remote/unknown drive rejection before cache metadata"
+    ],
+    "scope": "Mac synthetic filesystem/API/JavaScript/loopback tests, not actual Windows kernel or model execution"
+  },
+  "browser_qa": {
+    "browser": "Google Chrome on Mac",
+    "host_and_cache_states_simulated": true,
+    "actual_windows": false,
+    "model_execution_and_downloads": false,
+    "ja_en_path_help_and_final_warning": true,
+    "manual_path_priority_and_no_path_or_consent_auto_fill": true,
+    "pending_and_error_states": true,
+    "late_completion_model_changes_multi_tab_and_stop": true,
+    "no_raw_keys_console_errors_or_horizontal_overflow": true,
+    "owned_tabs_closed": 3,
+    "owned_qa_processes_stopped": true,
+    "screenshots_in_deliverable": false,
+    "source_sha256": {
+      "ui/index.html": "e6c539c16c53c480785cfc713526552fcf8006a28866643f5e72421102577ef4",
+      "ui/app.js": "110b8240d37a7be1e2eade0c096e975950dbfdc9581c5c17ccbbe3f3740eec08",
+      "ui/i18n.js": "6479f1bc1cca3ba9acacd00ee8f939cad127a4eb3e1097bdeae085e10c11ef7b",
+      "ui/translations.json": "6388f31446bf5daae754353ea583c0d83b95a5f840e48afedc3e2b5236ada08b",
+      "ui/style.css": "ac501626a4cb2231478bdef8dc4111afdfa229ea0127318c9712368f370e623e",
+      "ui/features.css": "8565c56fba5581e25436cdc6ad08cb60c232d653a95203ad284de21bffd4677c",
+      "ui/accessibility.css": "19af73345c5cff9bba932ec688a6a767fd8aa1f235492cb2ed98ce5a48da793b"
+    }
+  },
+  "runtime_discovery": {
+    "fixed_official_2b_cache_only": true,
+    "explicit_path_priority": true,
+    "complete_layout_and_sha256_checks": true,
+    "automatic_extra_gguf_rejected": true,
+    "manual_extra_gguf_behavior_unchanged": true,
+    "ancestor_reparse_symlink_and_remote_drive_rejection": true,
+    "no_download_or_auto_load_or_auto_consent": true,
+    "preview_nonblocking_and_cancelled_on_quit": true,
+    "windows_kernel_verification": "not performed for this new implementation",
+    "filesystem_toctou_guarantee": false
+  },
+  "windows_8b_user_trial": {
+    "hardware": "Windows 11 x64 / Ryzen 5 8645HS / 16GB RAM (about 13.8GB usable)",
+    "backend": "pinned GGUF Q4_K_M / CPU",
+    "result": "memory_guard_stop; successful translation not verified",
+    "free_percentage_shown": 3,
+    "swap_growth_mb_shown": 1881,
+    "evidence": "user screenshot, visually confirmed",
+    "retry": "user declined; no repeat performed",
+    "not_generalized_to_other_pcs": true,
+    "model_file_move": "user reports moving 8B into Downloads; not independently checked"
+  },
+  "distribution_license": {
+    "own_code": "MIT",
+    "copyright": "Copyright (c) 2026 AI研究室",
+    "third_party_terms_separate": true,
+    "liberation_source_included": true,
+    "liberation_source_sha256": "ad98b7498dc2992f7f0868f79b65ce4a720a3acdb63ab3f1f1cb6881117a5406",
+    "font_dsc_signature_verified": false,
+    "font_rebuilt": false,
+    "no_blanket_legal_compliance_claim": true
+  },
+  "git_publication": "Not performed; approved repository name kotoba-no-mado; wait for user Word/instructions trial and release timing."
+}

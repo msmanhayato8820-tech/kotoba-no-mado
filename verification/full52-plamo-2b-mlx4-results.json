@@ -1,0 +1,962 @@
+{
+  "date": "2026-11-11",
+  "source_text": "今日は晴れです。私は家族と公園に行きます。",
+  "model": "pfnet/plamo-3-translate-2b-MLX-4bit",
+  "revision": "b715145bec63f0dfe877699adbef182439b2047a",
+  "model_id": "plamo-2b-mlx4",
+  "note": "Fixed public sample. Reverse input is actual forward output. Execution/round-trip checks are not an independent translation-quality benchmark.",
+  "results": [
+    {
+      "code": "en",
+      "name": "英語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "It's sunny today. I'm going to the park with my family.",
+        "seconds": 0.26,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.21,
+        "warning": null
+      }
+    },
+    {
+      "code": "zh-hans",
+      "name": "中国語（簡体字）",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "今天天气晴朗。我要和家人一起去公园。",
+        "seconds": 0.35,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れている。家族と一緒に公園に行く。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "zh-hant",
+      "name": "中国語（繁体字）",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "今天是晴天。我要和家人一起去公園。",
+        "seconds": 0.3,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れです。家族と一緒に公園に行きます。",
+        "seconds": 0.24,
+        "warning": null
+      }
+    },
+    {
+      "code": "ko",
+      "name": "韓国語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "오늘은 맑습니다. 저는 가족과 공원에 갑니다.",
+        "seconds": 0.54,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。私は家族と公園に行きます。",
+        "seconds": 0.27,
+        "warning": null
+      }
+    },
+    {
+      "code": "ar",
+      "name": "アラビア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "الجو مشمس اليوم. سأذهب إلى الحديقة مع عائلتي.",
+        "seconds": 0.56,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "az",
+      "name": "アゼルバイジャン語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Bu gün günəşlidir. Ailəmlə parka gedirəm.",
+        "seconds": 0.4,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族で公園に行く。",
+        "seconds": 0.24,
+        "warning": null
+      }
+    },
+    {
+      "code": "be",
+      "name": "ベラルーシ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Сёння сонечна. Я пайду з сям'ёй у парк.",
+        "seconds": 0.55,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "bg",
+      "name": "ブルガリア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Днес е слънчево. Ще отида в парка с семейството си.",
+        "seconds": 0.59,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "bn",
+      "name": "ベンガル語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "আজ রৌদ্রোজ্জ্বল আকাশ। আমি পরিবারের সাথে পার্কে যাচ্ছি।",
+        "seconds": 1.2,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は快晴。家族で公園に行くよ。",
+        "seconds": 0.27,
+        "warning": null
+      }
+    },
+    {
+      "code": "ca",
+      "name": "カタルーニャ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Avui fa sol. Aniré al parc amb la família.",
+        "seconds": 0.34,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族で公園に行くよ。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "ceb",
+      "name": "セブアノ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Nindot ang panahon karong adlawa. Moadto ko sa parke uban sa akong pamilya.",
+        "seconds": 0.58,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日はいい天気だ。家族と一緒に公園に行くよ。",
+        "seconds": 0.27,
+        "warning": null
+      }
+    },
+    {
+      "code": "de",
+      "name": "ドイツ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Heute ist es sonnig. Ich gehe mit meiner Familie in den Park.",
+        "seconds": 0.36,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れている。家族と一緒に公園に行く。",
+        "seconds": 0.28,
+        "warning": null
+      }
+    },
+    {
+      "code": "es",
+      "name": "スペイン語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Hoy hace sol. Voy al parque con mi familia.",
+        "seconds": 0.32,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れ。家族と公園に行く。",
+        "seconds": 0.22,
+        "warning": null
+      }
+    },
+    {
+      "code": "et",
+      "name": "エストニア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Täna on päikeseline. Ma lähen koos perega parki.",
+        "seconds": 0.41,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行く。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "eu",
+      "name": "バスク語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Gaur eguna eguzkia da. Familiarekin parkera joango naiz.",
+        "seconds": 0.42,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族で公園に行くよ。",
+        "seconds": 0.23,
+        "warning": null
+      }
+    },
+    {
+      "code": "fa",
+      "name": "ペルシャ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "امروز هوا آفتابی است. من با خانواده‌ام به پارک می‌روم.",
+        "seconds": 0.64,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。私は家族と一緒に公園に行きます。",
+        "seconds": 0.3,
+        "warning": null
+      }
+    },
+    {
+      "code": "fr",
+      "name": "フランス語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Il fait beau aujourd'hui. Je vais au parc avec ma famille.",
+        "seconds": 0.38,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日はいい天気だ。家族と一緒に公園に行く。",
+        "seconds": 0.28,
+        "warning": null
+      }
+    },
+    {
+      "code": "gu",
+      "name": "グジャラート語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "આજે તડકો છે. હું પરિવાર સાથે પાર્કમાં જઈશ.",
+        "seconds": 1.83,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.33,
+        "warning": null
+      }
+    },
+    {
+      "code": "he",
+      "name": "ヘブライ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "היום שמש. אני הולך לפארק עם המשפחה.",
+        "seconds": 0.55,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れ。家族で公園に行くよ。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "hi",
+      "name": "ヒンディー語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "आज मौसम साफ़ है। मैं अपने परिवार के साथ पार्क जा रहा हूँ।",
+        "seconds": 0.97,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行きます。",
+        "seconds": 0.3,
+        "warning": null
+      }
+    },
+    {
+      "code": "hr",
+      "name": "クロアチア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Danas je sunčano. Idem s obitelji u park.",
+        "seconds": 0.33,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れている。家族と公園に行く。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "hu",
+      "name": "ハンガリー語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Ma napsütéses. A családommal megyünk a parkba.",
+        "seconds": 0.45,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行く。",
+        "seconds": 0.28,
+        "warning": null
+      }
+    },
+    {
+      "code": "hy",
+      "name": "アルメニア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Այսօր արևոտ է։ Ես ընտանիքիս հետ գնում եմ զբոսայգի։",
+        "seconds": 0.94,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。私は家族と一緒に公園に行く。",
+        "seconds": 0.33,
+        "warning": null
+      }
+    },
+    {
+      "code": "id",
+      "name": "インドネシア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Hari ini cerah. Saya akan pergi ke taman bersama keluarga.",
+        "seconds": 0.37,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行きます。",
+        "seconds": 0.27,
+        "warning": null
+      }
+    },
+    {
+      "code": "it",
+      "name": "イタリア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Oggi c'è il sole. Vado al parco con la mia famiglia.",
+        "seconds": 0.38,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行く。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "jv",
+      "name": "ジャワ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Dina iki cerah. Aku arep lunga menyang taman bareng kulawarga.",
+        "seconds": 0.44,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族で公園に行くつもりだ。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "ka",
+      "name": "ジョージア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "დღეს მზიანია. ოჯახთან ერთად პარკში მივდივარ.",
+        "seconds": 0.74,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行く。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "kk",
+      "name": "カザフ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Бүгін күн ашық. Мен отбасыммен саябаққа барамын.",
+        "seconds": 0.78,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。私は家族と一緒に公園に行く。",
+        "seconds": 0.3,
+        "warning": null
+      }
+    },
+    {
+      "code": "km",
+      "name": "クメール語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "ថ្ងៃនេះមានអាកាសធាតុស្រឡះ។ ខ្ញុំនឹងទៅសួនច្បារជាមួយគ្រួសារ។",
+        "seconds": 2.84,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は快晴です。家族と公園に行きます。",
+        "seconds": 0.41,
+        "warning": null
+      }
+    },
+    {
+      "code": "lt",
+      "name": "リトアニア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Šiandien saulėta. Aš su šeima eisiu į parką.",
+        "seconds": 0.42,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族で公園に行くよ。",
+        "seconds": 0.23,
+        "warning": null
+      }
+    },
+    {
+      "code": "lv",
+      "name": "ラトビア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Šodien ir saulains. Es dodos ar ģimeni uz parku.",
+        "seconds": 0.41,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行く。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "ml",
+      "name": "マラヤーラム語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "ഇന്ന് തെളിഞ്ഞ കാലാവസ്ഥയാണ്. ഞാൻ കുടുംബത്തോടൊപ്പം പാർക്കിലേക്ക് പോകുന്നു.",
+        "seconds": 2.75,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は快晴です。家族と一緒に公園に行きます。",
+        "seconds": 0.4,
+        "warning": null
+      }
+    },
+    {
+      "code": "mr",
+      "name": "マラーティー語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "आज सूर्यप्रकाश आहे. मी कुटुंबासोबत उद्यानात जातो.",
+        "seconds": 0.93,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族で公園に行く。",
+        "seconds": 0.27,
+        "warning": null
+      }
+    },
+    {
+      "code": "ms",
+      "name": "マレー語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Hari ini cuaca cerah. Saya akan pergi ke taman bersama keluarga.",
+        "seconds": 0.39,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行きます。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "my",
+      "name": "ミャンマー語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "ဒီနေ့ နေသာပါတယ်။ ကျွန်တော် မိသားစုနဲ့အတူ ပန်းခြံကို သွားပါမယ်။",
+        "seconds": 2.96,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行きます。",
+        "seconds": 0.47,
+        "warning": null
+      }
+    },
+    {
+      "code": "ne",
+      "name": "ネパール語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "आज मौसम सफा छ। म पारिवारिक सदस्यहरूसँग पार्कमा जान्छु।",
+        "seconds": 0.99,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は天気がいい。家族と一緒に公園に行く。",
+        "seconds": 0.32,
+        "warning": null
+      }
+    },
+    {
+      "code": "nl",
+      "name": "オランダ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Het is vandaag zonnig. Ik ga met mijn familie naar het park.",
+        "seconds": 0.42,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行きます。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "pa",
+      "name": "パンジャーブ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "ਅੱਜ ਮੌਸਮ ਸਾਫ਼ ਹੈ। ਮੈਂ ਆਪਣੇ ਪਰਿਵਾਰ ਨਾਲ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹਾਂ।",
+        "seconds": 2.36,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行きます。",
+        "seconds": 0.39,
+        "warning": null
+      }
+    },
+    {
+      "code": "pl",
+      "name": "ポーランド語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Dzisiaj jest słonecznie. Idę z rodziną do parku.",
+        "seconds": 0.44,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れている。家族と一緒に公園に行く。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "ru",
+      "name": "ロシア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Сегодня солнечно. Я пойду с семьей в парк.",
+        "seconds": 0.54,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "si",
+      "name": "シンハラ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "අද අව්ව ඇත. මම පවුලේ අය සමඟ උද්‍යානයට යන්නම්.",
+        "seconds": 1.95,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.38,
+        "warning": null
+      }
+    },
+    {
+      "code": "sk",
+      "name": "スロバキア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Dnes je slnečné. Idem s rodinou do parku.",
+        "seconds": 0.4,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と公園に行く。",
+        "seconds": 0.24,
+        "warning": null
+      }
+    },
+    {
+      "code": "sl",
+      "name": "スロベニア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Danes je sončno. Grem z družino v park.",
+        "seconds": 0.36,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と公園に行く。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "sr",
+      "name": "セルビア語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Danas je vedro. Idem sa porodicom u park.",
+        "seconds": 0.32,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族で公園に行く。",
+        "seconds": 0.22,
+        "warning": null
+      }
+    },
+    {
+      "code": "sw",
+      "name": "スワヒリ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Leo kuna jua. Nitaenda bustani na familia yangu.",
+        "seconds": 0.37,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れだ。家族と一緒に公園に行くよ。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "ta",
+      "name": "タミル語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "இன்று வெயில் உள்ளது. நான் குடும்பத்துடன் பூங்காவிற்குச் செல்கிறேன்.",
+        "seconds": 1.51,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れです。家族で公園に行きます。",
+        "seconds": 0.31,
+        "warning": null
+      }
+    },
+    {
+      "code": "te",
+      "name": "テルグ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "ఈరోజు ఎండగా ఉంది. నేను కుటుంబంతో కలిసి పార్కుకి వెళ్తున్నాను.",
+        "seconds": 2.76,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行っています。",
+        "seconds": 0.4,
+        "warning": null
+      }
+    },
+    {
+      "code": "th",
+      "name": "タイ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "วันนี้อากาศแจ่มใส ฉันจะไปสวนสาธารณะกับครอบครัว",
+        "seconds": 0.7,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は快晴だ。家族で公園に行く。",
+        "seconds": 0.26,
+        "warning": null
+      }
+    },
+    {
+      "code": "tl",
+      "name": "タガログ語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Araw ng araw ngayon. Pupunta ako sa parke kasama ang pamilya.",
+        "seconds": 0.46,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れ。家族で公園に行くよ。",
+        "seconds": 0.23,
+        "warning": null
+      }
+    },
+    {
+      "code": "ur",
+      "name": "ウルドゥー語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "آج موسم صاف ہے۔ میں اپنے خاندان کے ساتھ پارک جا رہا ہوں۔",
+        "seconds": 1.03,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れています。家族と一緒に公園に行きます。",
+        "seconds": 0.28,
+        "warning": null
+      }
+    },
+    {
+      "code": "uz",
+      "name": "ウズベク語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Bugun quyoshli. Oilam bilan bog‘ga boraman.",
+        "seconds": 0.32,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れ。家族と公園に行く。",
+        "seconds": 0.25,
+        "warning": null
+      }
+    },
+    {
+      "code": "vi",
+      "name": "ベトナム語",
+      "token_limit": 256,
+      "completed": true,
+      "forward": {
+        "text": "Hôm nay trời nắng. Tôi sẽ đi công viên với gia đình.",
+        "seconds": 0.57,
+        "warning": null
+      },
+      "reverse": {
+        "text": "今日は晴れです。家族と公園に行きます。",
+        "seconds": 0.23,
+        "warning": null
+      }
+    }
+  ],
+  "completed": true,
+  "attempts": [
+    {
+      "started_at": "2026-11-11T07:01:25.239870+00:00",
+      "token_limit": 256,
+      "requested_codes": [
+        "en",
+        "zh-hans",
+        "zh-hant",
+        "ko"
+      ],
+      "outcome": "batch_completed",
+      "finished_at": "2026-11-11T07:01:32.050589+00:00"
+    },
+    {
+      "started_at": "2026-11-11T07:03:26.581291+00:00",
+      "token_limit": 256,
+      "requested_codes": [
+        "ar",
+        "az",
+        "be",
+        "bg",
+        "bn",
+        "ca",
+        "ceb",
+        "de",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "fr",
+        "gu",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "hy",
+        "id",
+        "it",
+        "jv",
+        "ka",
+        "kk",
+        "km",
+        "lt",
+        "lv",
+        "ml",
+        "mr",
+        "ms",
+        "my",
+        "ne",
+        "nl",
+        "pa",
+        "pl",
+        "ru",
+        "si",
+        "sk",
+        "sl",
+        "sr",
+        "sw",
+        "ta",
+        "te",
+        "th",
+        "tl",
+        "ur",
+        "uz",
+        "vi"
+      ],
+      "outcome": "completed",
+      "finished_at": "2026-11-11T07:04:30.945986+00:00"
+    }
+  ],
+  "loads": [
+    {
+      "phase": "ready",
+      "seconds": 3.0,
+      "memory": {
+        "baseline": {
+          "free": 89,
+          "swap": 4838.19
+        },
+        "latest": {
+          "free": 82,
+          "swap": 4838.19
+        },
+        "peak_swap_growth_mb": 0,
+        "min_free_percentage": 82
+      },
+      "error": null
+    },
+    {
+      "phase": "ready",
+      "seconds": 2.71,
+      "memory": {
+        "baseline": {
+          "free": 89,
+          "swap": 4814.19
+        },
+        "latest": {
+          "free": 82,
+          "swap": 4806.19
+        },
+        "peak_swap_growth_mb": 0,
+        "min_free_percentage": 81
+      },
+      "error": null
+    }
+  ],
+  "updated_at": "2026-11-11T07:04:30.906540+00:00",
+  "last_memory": {
+    "baseline": {
+      "free": 89,
+      "swap": 4814.19
+    },
+    "latest": {
+      "free": 82,
+      "swap": 4806.19
+    },
+    "peak_swap_growth_mb": 0,
+    "min_free_percentage": 81
+  }
+}

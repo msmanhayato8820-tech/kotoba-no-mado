@@ -1,0 +1,381 @@
+{
+  "model": "pfnet/plamo-3-translate-31b-MLX-4bit",
+  "revision": "e558c8fba45054df70141bc72295024de9b57a44",
+  "source": "https://huggingface.co/pfnet/plamo-3-translate-31b-MLX-4bit/blob/e558c8fba45054df70141bc72295024de9b57a44/README_ja.md",
+  "languages": [
+    {
+      "code": "ja",
+      "name": "日本語",
+      "name_en": "Japanese"
+    },
+    {
+      "code": "en",
+      "name": "英語",
+      "sample": "The weather is nice today.",
+      "name_en": "English"
+    },
+    {
+      "code": "zh-hans",
+      "name": "中国語（簡体字）",
+      "sample": "今天天气很好。",
+      "name_en": "Chinese (Simplified)"
+    },
+    {
+      "code": "zh-hant",
+      "name": "中国語（繁体字）",
+      "sample": "今天天氣很好。",
+      "name_en": "Chinese (Traditional)"
+    },
+    {
+      "code": "ko",
+      "name": "韓国語",
+      "sample": "오늘은 날씨가 좋습니다.",
+      "name_en": "Korean"
+    },
+    {
+      "code": "ar",
+      "name": "アラビア語",
+      "sample": "الطقس جميل اليوم.",
+      "name_en": "Arabic"
+    },
+    {
+      "code": "az",
+      "name": "アゼルバイジャン語",
+      "name_en": "Azerbaijani"
+    },
+    {
+      "code": "be",
+      "name": "ベラルーシ語",
+      "name_en": "Belarusian"
+    },
+    {
+      "code": "bg",
+      "name": "ブルガリア語",
+      "name_en": "Bulgarian"
+    },
+    {
+      "code": "bn",
+      "name": "ベンガル語",
+      "name_en": "Bengali"
+    },
+    {
+      "code": "ca",
+      "name": "カタルーニャ語",
+      "name_en": "Catalan"
+    },
+    {
+      "code": "ceb",
+      "name": "セブアノ語",
+      "name_en": "Cebuano"
+    },
+    {
+      "code": "de",
+      "name": "ドイツ語",
+      "sample": "Heute ist schönes Wetter.",
+      "name_en": "German"
+    },
+    {
+      "code": "es",
+      "name": "スペイン語",
+      "sample": "Hoy hace buen tiempo.",
+      "name_en": "Spanish"
+    },
+    {
+      "code": "et",
+      "name": "エストニア語",
+      "name_en": "Estonian"
+    },
+    {
+      "code": "eu",
+      "name": "バスク語",
+      "name_en": "Basque"
+    },
+    {
+      "code": "fa",
+      "name": "ペルシャ語",
+      "name_en": "Persian"
+    },
+    {
+      "code": "fr",
+      "name": "フランス語",
+      "sample": "Il fait beau aujourd’hui.",
+      "name_en": "French"
+    },
+    {
+      "code": "gu",
+      "name": "グジャラート語",
+      "name_en": "Gujarati"
+    },
+    {
+      "code": "he",
+      "name": "ヘブライ語",
+      "name_en": "Hebrew"
+    },
+    {
+      "code": "hi",
+      "name": "ヒンディー語",
+      "name_en": "Hindi"
+    },
+    {
+      "code": "hr",
+      "name": "クロアチア語",
+      "name_en": "Croatian"
+    },
+    {
+      "code": "hu",
+      "name": "ハンガリー語",
+      "name_en": "Hungarian"
+    },
+    {
+      "code": "hy",
+      "name": "アルメニア語",
+      "name_en": "Armenian"
+    },
+    {
+      "code": "id",
+      "name": "インドネシア語",
+      "name_en": "Indonesian"
+    },
+    {
+      "code": "it",
+      "name": "イタリア語",
+      "name_en": "Italian"
+    },
+    {
+      "code": "jv",
+      "name": "ジャワ語",
+      "name_en": "Javanese"
+    },
+    {
+      "code": "ka",
+      "name": "ジョージア語",
+      "name_en": "Georgian"
+    },
+    {
+      "code": "kk",
+      "name": "カザフ語",
+      "name_en": "Kazakh"
+    },
+    {
+      "code": "km",
+      "name": "クメール語",
+      "name_en": "Khmer"
+    },
+    {
+      "code": "lt",
+      "name": "リトアニア語",
+      "name_en": "Lithuanian"
+    },
+    {
+      "code": "lv",
+      "name": "ラトビア語",
+      "name_en": "Latvian"
+    },
+    {
+      "code": "ml",
+      "name": "マラヤーラム語",
+      "name_en": "Malayalam"
+    },
+    {
+      "code": "mr",
+      "name": "マラーティー語",
+      "name_en": "Marathi"
+    },
+    {
+      "code": "ms",
+      "name": "マレー語",
+      "name_en": "Malay"
+    },
+    {
+      "code": "my",
+      "name": "ミャンマー語",
+      "name_en": "Burmese"
+    },
+    {
+      "code": "ne",
+      "name": "ネパール語",
+      "name_en": "Nepali"
+    },
+    {
+      "code": "nl",
+      "name": "オランダ語",
+      "name_en": "Dutch"
+    },
+    {
+      "code": "pa",
+      "name": "パンジャーブ語",
+      "name_en": "Punjabi"
+    },
+    {
+      "code": "pl",
+      "name": "ポーランド語",
+      "name_en": "Polish"
+    },
+    {
+      "code": "ru",
+      "name": "ロシア語",
+      "name_en": "Russian"
+    },
+    {
+      "code": "si",
+      "name": "シンハラ語",
+      "name_en": "Sinhala"
+    },
+    {
+      "code": "sk",
+      "name": "スロバキア語",
+      "name_en": "Slovak"
+    },
+    {
+      "code": "sl",
+      "name": "スロベニア語",
+      "name_en": "Slovenian"
+    },
+    {
+      "code": "sr",
+      "name": "セルビア語",
+      "name_en": "Serbian"
+    },
+    {
+      "code": "sw",
+      "name": "スワヒリ語",
+      "name_en": "Swahili"
+    },
+    {
+      "code": "ta",
+      "name": "タミル語",
+      "name_en": "Tamil"
+    },
+    {
+      "code": "te",
+      "name": "テルグ語",
+      "name_en": "Telugu"
+    },
+    {
+      "code": "th",
+      "name": "タイ語",
+      "sample": "วันนี้อากาศดี",
+      "name_en": "Thai"
+    },
+    {
+      "code": "tl",
+      "name": "タガログ語",
+      "name_en": "Tagalog"
+    },
+    {
+      "code": "ur",
+      "name": "ウルドゥー語",
+      "name_en": "Urdu"
+    },
+    {
+      "code": "uz",
+      "name": "ウズベク語",
+      "name_en": "Uzbek"
+    },
+    {
+      "code": "vi",
+      "name": "ベトナム語",
+      "sample": "Hôm nay trời đẹp.",
+      "name_en": "Vietnamese"
+    }
+  ],
+  "verification_note": "52言語・104方向で公開短文の応答を取得。翻訳品質・長文は未保証。クメール語は短め128で打切り、標準256で完了。",
+  "execution_confirmed_languages": [
+    "en",
+    "zh-hans",
+    "zh-hant",
+    "ko",
+    "ar",
+    "az",
+    "be",
+    "bg",
+    "bn",
+    "ca",
+    "ceb",
+    "de",
+    "es",
+    "et",
+    "eu",
+    "fa",
+    "fr",
+    "gu",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "hy",
+    "id",
+    "it",
+    "jv",
+    "ka",
+    "kk",
+    "km",
+    "lt",
+    "lv",
+    "ml",
+    "mr",
+    "ms",
+    "my",
+    "ne",
+    "nl",
+    "pa",
+    "pl",
+    "ru",
+    "si",
+    "sk",
+    "sl",
+    "sr",
+    "sw",
+    "ta",
+    "te",
+    "th",
+    "tl",
+    "ur",
+    "uz",
+    "vi"
+  ],
+  "language_checks": {},
+  "quality_notes": {
+    "tl": {
+      "ja": "今回の短文では「晴れ」が逆翻訳で「早朝」に変わりました。",
+      "en": "In this sample, “sunny” became “early morning” in the back-translation."
+    },
+    "uz": {
+      "ja": "今回の短文では原文にない「昼間」が加わりました。",
+      "en": "In this sample, “during the day” was added although it was absent from the original."
+    },
+    "te": {
+      "ja": "今回の逆翻訳では「行きます」が「行っています」に変わりました。",
+      "en": "In this sample, the back-translation changed “will go / go” to “am going”."
+    },
+    "th": {
+      "ja": "今回の逆翻訳では、原文にない因果関係「晴れているから」が加わりました。",
+      "en": "In this sample, the back-translation added a causal link: “because it is sunny”."
+    }
+  },
+  "official_evaluation": {
+    "hubs": [
+      "ja",
+      "en"
+    ],
+    "languages": [
+      "ja",
+      "en",
+      "ar",
+      "id",
+      "it",
+      "nl",
+      "ko",
+      "es",
+      "th",
+      "zh-hans",
+      "zh-hant",
+      "de",
+      "fr",
+      "vi",
+      "ru"
+    ],
+    "note": "PLaMo 3 Translate model card (FLORES+ chrF++): both directions between Japanese or English and each of the other 14 languages. Other pairs are supported codes but not in the published evaluation.",
+    "source": "https://huggingface.co/pfnet/plamo-3-translate-2b-MLX-4bit/blob/b715145bec63f0dfe877699adbef182439b2047a/README.md"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "model": "pfnet/plamo-3-translate-2b-MLX-4bit",
+  "revision": "b715145bec63f0dfe877699adbef182439b2047a",
+  "date": "2026-11-11",
+  "machine": "Apple Silicon Mac, 32 GiB, macOS (development machine)",
+  "runtime": "mlx 0.32.3 / mlx-lm 0.32.0",
+  "method": "Self-written public Japanese sentences, ja->en, greedy, 64 output tokens only, prefill_step_size 256, MLX memory limit 12 GiB. Script: tests/measure_context.py",
+  "process_peak_footprint_bytes": 3899116688,
+  "results": [
+    {
+      "context": 4096,
+      "prompt_tokens": 4026,
+      "generated": 64,
+      "seconds_to_first_token": 3.33,
+      "seconds_total": 4.63,
+      "peak_gib": 2.97,
+      "weights_and_base_gib": 2.25
+    },
+    {
+      "context": 8192,
+      "prompt_tokens": 8125,
+      "generated": 64,
+      "seconds_to_first_token": 5.26,
+      "seconds_total": 6.62,
+      "peak_gib": 3.01,
+      "weights_and_base_gib": 2.25
+    },
+    {
+      "context": 16384,
+      "prompt_tokens": 16318,
+      "generated": 64,
+      "seconds_to_first_token": 10.54,
+      "seconds_total": 11.86,
+      "peak_gib": 3.06,
+      "weights_and_base_gib": 2.25
+    },
+    {
+      "context": 32768,
+      "prompt_tokens": 32702,
+      "generated": 64,
+      "seconds_to_first_token": 21.75,
+      "seconds_total": 23.11,
+      "peak_gib": 3.13,
+      "weights_and_base_gib": 2.25
+    }
+  ],
+  "limits": "Only 64 output tokens were generated: long outputs, translation quality at long context, other Macs and Windows were not measured."
+}

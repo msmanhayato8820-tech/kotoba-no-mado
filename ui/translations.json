@@ -1,0 +1,1383 @@
+{
+  "strings": {
+    "pageTitle": [
+      "ことばの窓 | ローカル翻訳",
+      "Kotoba no Mado | Local translation"
+    ],
+    "brand": [
+      "ことばの窓",
+      "Kotoba no Mado"
+    ],
+    "prototype": [
+      "ローカル翻訳・0.8試用版",
+      "LOCAL TRANSLATION · 0.8 TRIAL"
+    ],
+    "local": [
+      "このパソコンの中で翻訳",
+      "Translation on this computer"
+    ],
+    "displayLanguage": [
+      "画面の言語",
+      "App language"
+    ],
+    "theme": [
+      "画面の色",
+      "Appearance"
+    ],
+    "system": [
+      "端末に合わせる",
+      "Use device setting"
+    ],
+    "light": [
+      "ライト",
+      "Light"
+    ],
+    "dark": [
+      "ダーク",
+      "Dark"
+    ],
+    "textSize": [
+      "文字の大きさ",
+      "Text size"
+    ],
+    "standard": [
+      "標準",
+      "Standard"
+    ],
+    "large": [
+      "大きめ",
+      "Large"
+    ],
+    "xlarge": [
+      "とても大きめ",
+      "Extra large"
+    ],
+    "headline": [
+      "文章を、もうひとつの言葉へ。",
+      "Your words, in another language."
+    ],
+    "intro": [
+      "53言語の間で、このパソコンの中で翻訳します（日本語を含まない組み合わせも選べます）。",
+      "Translate among 53 languages on this computer, including pairs without Japanese."
+    ],
+    "localeNote": [
+      "画面の言語（日本語・英語）は、翻訳する言語とは別に選べます。どちらも次回まで覚えます。",
+      "The app language (Japanese or English) is separate from the languages you translate. Both are remembered for next time."
+    ],
+    "setupTitle": [
+      "翻訳AIを準備",
+      "Prepare the translation AI"
+    ],
+    "setupIntro": [
+      "初めての方は下の「2Bの準備内容を見る」から。すでにモデルがある方は「既存ファイルを使う」を開いてください。",
+      "First time? Start with “Review 2B preparation” below. If you already have a model, open “Use existing files”."
+    ],
+    "modelLabel": [
+      "PLaMoを保存したフォルダ",
+      "Folder containing PLaMo"
+    ],
+    "modelPlaceholder": [
+      "フォルダの場所",
+      "Folder location"
+    ],
+    "choose": [
+      "選ぶ",
+      "Choose"
+    ],
+    "existing": [
+      "このパソコンにあるPLaMoを使う",
+      "Use PLaMo found on this computer"
+    ],
+    "advanced": [
+      "詳しい設定（通常は変更不要）",
+      "Advanced settings (usually not needed)"
+    ],
+    "runtimeLabel": [
+      "MLXを準備したPython",
+      "Python with MLX installed"
+    ],
+    "runtimePlaceholder": [
+      "空欄なら自動で探します",
+      "Leave blank to find automatically"
+    ],
+    "runtimeHelp": [
+      "設定を手伝う方へ：モデルの隣の .venv を優先します。自動インストールはしません。",
+      "For setup support: the .venv next to the model is preferred. Nothing is installed automatically."
+    ],
+    "compatible": [
+      "選んだ翻訳AIについて",
+      "About the selected AI"
+    ],
+    "compatibleNote": [
+      "",
+      ""
+    ],
+    "ack": [
+      "このモデルの利用条件と、自分の用途に必要な登録を確認しました。",
+      "I reviewed this model’s terms and any registration required for my use."
+    ],
+    "load": [
+      "翻訳AIを読み込む",
+      "Load translation AI"
+    ],
+    "stop": [
+      "翻訳AIを止める",
+      "Stop translation AI"
+    ],
+    "codeNote": [
+      "読み込む前に、対応版の設定とプログラムか確認します。",
+      "The app checks that the settings and program match the supported version before loading."
+    ],
+    "guide": [
+      "0.8 設定ガイド・困ったとき",
+      "0.8 setup guide (English summary)"
+    ],
+    "translateTitle": [
+      "翻訳する",
+      "Translate"
+    ],
+    "badge": [
+      "53言語",
+      "53 languages"
+    ],
+    "language": [
+      "日本語の相手の言語",
+      "Language to translate with Japanese"
+    ],
+    "direction": [
+      "翻訳の方向",
+      "Translation direction"
+    ],
+    "fromJa": [
+      "日本語 → {name}",
+      "Japanese → {name}"
+    ],
+    "toJa": [
+      "{name} → 日本語",
+      "{name} → Japanese"
+    ],
+    "official": [
+      "{name}はAIの公式対応言語です。",
+      "{name} is officially supported by the model. "
+    ],
+    "executed": [
+      "この試作で短文の往復の応答を確認しました。正確さの保証ではありません。",
+      "This prototype returned results in both directions for a short sample. This does not guarantee accuracy."
+    ],
+    "notExecuted": [
+      "この試作での実際の翻訳は未確認です。結果を確認してください。",
+      "Translation in this prototype has not yet been tested. Please check the result."
+    ],
+    "reviewNeeded": [
+      "言語の自動判定に不一致があるため、特に結果を確認してください。",
+      "Automatic language detection was inconsistent. Please check the output language carefully."
+    ],
+    "source": [
+      "翻訳したい文章",
+      "Text to translate"
+    ],
+    "sourcePlaceholder": [
+      "ここに文章を入力してください。",
+      "Type or paste your text here."
+    ],
+    "sample": [
+      "短い例文を入れる",
+      "Try a short example"
+    ],
+    "noSample": [
+      "この言語の例文は未用意です",
+      "No example is available for this language"
+    ],
+    "outputLength": [
+      "結果の長さの上限",
+      "Output length limit"
+    ],
+    "short": [
+      "短め",
+      "Short"
+    ],
+    "normal": [
+      "標準",
+      "Standard"
+    ],
+    "long": [
+      "長め",
+      "Long"
+    ],
+    "translate": [
+      "翻訳する",
+      "Translate"
+    ],
+    "lengthHelp": [
+      "「自動」では、実際のトークン数から訳文の余裕を取り、一度に翻訳できる長さ（設定の8割）を超える場合は下の「文書を翻訳する」で自動的に分けて翻訳します。",
+      "With Automatic, room for the translation is based on the actual token count. If the text exceeds 80% of the context length, it is split automatically in “Translate a document” below."
+    ],
+    "result": [
+      "翻訳結果",
+      "Translation result"
+    ],
+    "copy": [
+      "コピー",
+      "Copy"
+    ],
+    "copied": [
+      "コピーしました",
+      "Copied"
+    ],
+    "clear": [
+      "文章を消す",
+      "Clear text"
+    ],
+    "resultEmpty": [
+      "翻訳結果はここに表示されます。",
+      "Your translation will appear here."
+    ],
+    "privacyTitle": [
+      "翻訳処理は、このパソコンの中で。",
+      "Translation runs on this computer."
+    ],
+    "privacy": [
+      "外部の翻訳APIは使いません。原文・訳文はメモリ上で扱い、翻訳履歴は保存しません。自分で「保存」を選んだ結果ファイル、表示設定・言語選択、準備用の取得ファイル・モデル・実行プログラムは残ります。このアプリはOS全体の通信を止めるものではなく、すべての通信を検証したわけではありません。会社や学校の文書は所属先の規則に従ってください。",
+      "No external translation API is used. Source text and translations are handled in memory; no translation history is saved. Result files you choose to save, display and language settings, preparation downloads, models and runtimes remain on disk. This app does not block all system traffic, and not all traffic has been verified. Follow your organization’s rules for work or school documents."
+    ],
+    "footer": [
+      "試作版・対応環境と検証範囲はモデルごとに異なります・大切な文書は人が確認してください",
+      "Prototype · Supported systems and test coverage vary by model · Have important documents checked by a person"
+    ],
+    "quit": [
+      "アプリを終了",
+      "Quit app"
+    ],
+    "idle": [
+      "未準備",
+      "Not loaded"
+    ],
+    "loading": [
+      "翻訳AIを準備中",
+      "Loading translation AI"
+    ],
+    "ready": [
+      "準備完了",
+      "Ready"
+    ],
+    "translating": [
+      "翻訳中",
+      "Translating"
+    ],
+    "error": [
+      "確認が必要です",
+      "Attention needed"
+    ],
+    "disconnected": [
+      "アプリとの接続が切れました",
+      "Disconnected from the app"
+    ],
+    "reopen": [
+      "アプリを起動し直してください。文章が自動で再送されることはありません。",
+      "Reopen the app. Your text will not be resent automatically."
+    ],
+    "quitDone": [
+      "アプリを終了しました。このタブを閉じてください。",
+      "The app has stopped. You can close this tab."
+    ],
+    "seconds": [
+      "このパソコンで処理・{seconds}秒",
+      "Processed on this computer · {seconds} seconds"
+    ],
+    "operationFailed": [
+      "操作に失敗しました。",
+      "The operation failed."
+    ],
+    "connectionError": [
+      "接続を確認してください。",
+      "Check the connection to the app."
+    ],
+    "copyError": [
+      "コピーできませんでした。結果を選択してコピーしてください。",
+      "Could not copy. Select the translation and copy it manually."
+    ],
+    "languageError": [
+      "言語一覧を読み込めません。アプリを起動し直してください。",
+      "Could not load the language list. Reopen the app."
+    ],
+    "reverse": [
+      "元の言語に戻して確認",
+      "Translate back to check"
+    ],
+    "reverseTitle": [
+      "原文・訳文・逆翻訳を比べる",
+      "Compare original, translation, and back-translation"
+    ],
+    "originalSnapshot": [
+      "翻訳時の原文",
+      "Original text at translation time"
+    ],
+    "forwardSnapshot": [
+      "訳文",
+      "Translation"
+    ],
+    "reverseSnapshot": [
+      "元の言語に戻した文",
+      "Back-translation"
+    ],
+    "reverseNote": [
+      "逆翻訳は同じAIで、もう一度翻訳します。内容の確認の助けになりますが、一致しても正確さを保証しません。翻訳には追加の時間がかかります。",
+      "Back-translation uses the same AI for another translation. It can help you review the result, but matching the original does not prove accuracy. It takes additional processing time."
+    ],
+    "reverseEmpty": [
+      "「元の言語に戻して確認」を押すと表示します。",
+      "Choose “Translate back to check” to see the result."
+    ],
+    "reverseTooLong": [
+      "訳文が2000文字を超えるか途中で切れているため、この試作では逆翻訳できません。原文を短く分けてください。",
+      "The translation exceeds 2,000 characters or was cut off, so this prototype cannot back-translate it. Split the source into shorter parts."
+    ],
+    "displaySettings": [
+      "表示設定",
+      "Display settings"
+    ],
+    "modelChoice": [
+      "使う翻訳AI",
+      "Translation AI"
+    ],
+    "modelMemoryNote": [
+      "ファイル容量と必要メモリは別です。重い場合は他のアプリを閉じ、長さ4,096・短文から試してください。Windows 2Bより小さいモデルはWindows未検証です。Macで小型モデルを選ぶ場合も、この画面で検証済みと示したものに限ります。",
+      "File size is not the memory requirement. If it is slow or memory is tight, close other apps and try a short text at 4,096 tokens. Models smaller than Windows 2B are unverified on Windows. On Mac, only consider smaller models explicitly marked as tested here."
+    ],
+    "modelLicense": [
+      "このAIの利用条件（外部サイト）",
+      "Terms for this AI (external website)"
+    ],
+    "modelFileSize": [
+      "[実測] モデルの重み 約{weights} GB、取得したファイル全体 約{total} GB。",
+      "[Measured] Model weights about {weights} GB; all downloaded files about {total} GB."
+    ],
+    "modelPending": [
+      "準備中です。この版では読み込めません（取得・利用条件の確認・実機での確認がまだです）。",
+      "In preparation. This build cannot load it yet (download, terms review and device testing are not done)."
+    ],
+    "modelTested": [
+      "開発用のMac mini M6（32GB）で公開短文の応答を確認済みです。正確さや別のMacでの動作は保証しません。",
+      "Public short samples returned results on the development Mac mini M6 (32 GB). Accuracy and operation on other Macs are not guaranteed."
+    ],
+    "modelAvailableUntested": [
+      "読み込み処理を追加しました。実機での動作・必要メモリ・速度は未確認です。",
+      "Loading support has been added. Device operation, memory use, and speed are not yet verified."
+    ],
+    "modelsError": [
+      "翻訳AIの一覧を読み込めません。アプリを起動し直してください。",
+      "Could not load the AI list. Reopen the app."
+    ],
+    "modelFileSizeListed": [
+      "[公式の掲載値・未取得] モデルファイル 約{weights} GB、取得するファイル全体 約{total} GB。必要なメモリは未確認です。",
+      "[Official listing, not downloaded] Model file about {weights} GB; all files about {total} GB. Memory needed is not yet known."
+    ],
+    "modelHosts": [
+      "モデルの公式取得元: Hugging Faceとその配信先。2Bの準備では、確認画面に示す公式llama.cppも取得します。",
+      "Official model source: Hugging Face and its delivery servers. 2B preparation also downloads official llama.cpp as shown in the review panel."
+    ],
+    "modelWrongOs": [
+      "このパソコンのOSでは使えません。",
+      "Not available for this computer's operating system."
+    ],
+    "platformMac": [
+      "対象: Mac（Apple Silicon）・MLX形式",
+      "For: Mac (Apple Silicon) · MLX format"
+    ],
+    "platformWindows": [
+      "対象: Windows 11・GGUF形式（実行方式は未実装）",
+      "For: Windows 11 · GGUF format (runtime not implemented)"
+    ],
+    "platformOther": [
+      "※このパソコンとは別のOS用です。",
+      "Note: this is for a different operating system."
+    ],
+    "groupUsable": [
+      "このパソコンのOSで動作確認済み（短文など）",
+      "Checked on this OS (short samples, etc.)"
+    ],
+    "groupPending": [
+      "準備中・このパソコンでは使えない",
+      "In preparation or not for this computer"
+    ],
+    "notUsableSuffix": [
+      "（使えません）",
+      "(not available)"
+    ],
+    "stopNote": [
+      "「翻訳AIを止める」は処理を中断し、メモリを空けます。翻訳結果と比較も消えます。",
+      "“Stop translation AI” interrupts work and frees memory. Translations and comparisons are also cleared."
+    ],
+    "pairSaved": [
+      "選んだ翻訳元・翻訳先は、次回も覚えておきます（文章は保存しません）。",
+      "Your source and target languages are remembered for next time (text is not saved)."
+    ],
+    "translatingNow": [
+      "翻訳しています…",
+      "Translating…"
+    ],
+    "resultPair": [
+      "翻訳の方向: {pair}",
+      "Direction: {pair}"
+    ],
+    "clearNote": [
+      "「文章を消す」は、このアプリを開いているすべてのタブの文章・翻訳結果・比較・文書の結果を消します。翻訳AIは止めません。",
+      "“Clear text” erases text, translations, comparisons and document results in every tab of this app. It does not stop the AI."
+    ],
+    "saveSingleTxt": [
+      "訳文を.txtで保存",
+      "Save translation (.txt)"
+    ],
+    "saveSingleDocx": [
+      "訳文を.docxで保存",
+      "Save translation (.docx)"
+    ],
+    "fileBase": [
+      "翻訳結果",
+      "translation"
+    ],
+    "reopenTitle": [
+      "このページは、まだアプリにつながっていません。",
+      "This page is not connected to the app yet."
+    ],
+    "reopenBody": [
+      "安全のため、アプリを起動したときに開くページだけが使えます。ことばの窓をもう一度起動してください（起動中のアプリは終了してから）。",
+      "For safety, only the page opened when the app starts can be used. Start Kotoba no Mado again (quit the running app first)."
+    ],
+    "docTitle": [
+      "文書を翻訳する",
+      "Translate a document"
+    ],
+    "docIntro": [
+      "長い文章やファイルを、少しずつ分けて順番に翻訳します。ファイルはこのパソコンのアプリにだけ送られ、メモリ上で読みます。",
+      "Long text and files are split and translated in order. Files go only to this app on this computer and are read in memory."
+    ],
+    "dropTitle": [
+      "ここにファイルをドラッグ＆ドロップ",
+      "Drag and drop a file here"
+    ],
+    "dropHelp": [
+      "または下のボタンで選びます。1回に1ファイルです（20 MBまで）。",
+      "Or choose one with the button below. One file at a time (up to 20 MB)."
+    ],
+    "filePick": [
+      "ファイルを選ぶ",
+      "Choose a file"
+    ],
+    "fileSupport": [
+      "使えるファイル: テキスト（.txt）、Word（.docx）、文字情報が入ったPDF。PDFはこの画面の中で読み、文字だけを使います。古いWord（.doc）・画像・画像だけのPDFは対象外です（文字を読み取る機能＝OCRはありません）。",
+      "Supported: text (.txt), Word (.docx), and PDFs with embedded text. PDFs are read inside this page and only their text is used. Old Word (.doc), images and image-only PDFs are not supported (no OCR)."
+    ],
+    "docText": [
+      "読み込んだ文章（確認・修正できます。貼り付けもできます）",
+      "Loaded text (check or edit it; you can also paste)"
+    ],
+    "docPlaceholder": [
+      "ファイルを読み込むと、ここに文章が出ます。長い文章を直接貼り付けることもできます。",
+      "Text from the file appears here. You can also paste long text directly."
+    ],
+    "docCount": [
+      "{chars}文字・約{parts}部分に分けて翻訳します。",
+      "{chars} characters · about {parts} parts."
+    ],
+    "chunkLabel": [
+      "一度に翻訳する長さ",
+      "Length per part"
+    ],
+    "chunk300": [
+      "短め（約300文字）",
+      "Short (about 300 characters)"
+    ],
+    "chunk600": [
+      "標準（約600文字）",
+      "Standard (about 600 characters)"
+    ],
+    "chunk1000": [
+      "長め（約1000文字）",
+      "Long (about 1,000 characters)"
+    ],
+    "contextLabel": [
+      "前の文章を参考にする量",
+      "Earlier text used as context"
+    ],
+    "context0": [
+      "使わない",
+      "None"
+    ],
+    "context1": [
+      "直前の1つ（標準）",
+      "The previous part (standard)"
+    ],
+    "context2": [
+      "直前の2つ",
+      "The previous two parts"
+    ],
+    "settingsHelpTitle": [
+      "この設定について（メモリと速さ）",
+      "About these settings (memory and speed)"
+    ],
+    "settingsHelp1": [
+      "分ける長さを長くすると、一度に扱う量が増え、メモリを多く使い時間もかかります。「とても長め」や「直前の4つ」は、上の「一度に扱える長さ」を8,192以上にしないと、参考が自動で減ったり翻訳できない部分が出たりします。途中で切れた場合は短めにしてください。",
+      "Longer parts handle more text at once, use more memory and take longer. “Very long” and “previous four parts” need a context length of 8,192 or more; otherwise context is reduced automatically or some parts cannot be translated. If results are cut off, choose Short."
+    ],
+    "settingsHelp2": [
+      "前の文章を参考にすると、用語や話の流れがそろいやすくなりますが、その分メモリと時間が増えます。長すぎる場合は自動で参考を減らし、その数をお知らせします。",
+      "Using earlier parts as context helps keep terms and flow consistent, but uses more memory and time. If it is too long, context is reduced automatically and reported."
+    ],
+    "settingsHelp3": [
+      "分け目は段落・文の区切りを優先します。区切りのない長い文は途中で切ることがあります。迷ったら標準のままで大丈夫です。",
+      "Splits prefer paragraph and sentence breaks. Very long text without breaks may be cut mid-sentence. If unsure, keep Standard."
+    ],
+    "docPairNote": [
+      "翻訳元と翻訳先は、上の「翻訳する」で選んだものを使います。",
+      "The source and target languages selected above under “Translate” are used."
+    ],
+    "docStart": [
+      "文書を翻訳する",
+      "Translate document"
+    ],
+    "docCancel": [
+      "中断する",
+      "Stop"
+    ],
+    "docRunning": [
+      "翻訳中: {done} / {total} 部分（{seconds}秒）",
+      "Translating: {done} / {total} parts ({seconds} s)"
+    ],
+    "docCancelling": [
+      "中断しています。今の部分が終わったら止まります（{done} / {total}）。",
+      "Stopping after the current part ({done} / {total})."
+    ],
+    "docDone": [
+      "完了: {total}部分すべて翻訳しました（{seconds}秒）。",
+      "Done: all {total} parts translated ({seconds} s)."
+    ],
+    "docCancelled": [
+      "中断しました: {done} / {total} 部分まで。ここまでの結果は保存できます。",
+      "Stopped at {done} / {total} parts. You can save what is done."
+    ],
+    "docFailed": [
+      "止まりました: {done} / {total} 部分まで。上の表示を確認してください。",
+      "Stopped at {done} / {total} parts. Check the message above."
+    ],
+    "docCutOff": [
+      "{n}部分は、分け直しても訳文が途中で切れた可能性があります。その部分を確認してください。",
+      "{n} part(s) may still be cut off after re-splitting. Check those parts."
+    ],
+    "docFailedParts": [
+      "{n}部分は長すぎて翻訳できませんでした（訳文は空です）。",
+      "{n} part(s) were too long to translate (left empty)."
+    ],
+    "docContextReduced": [
+      "{n}部分では長さの都合で前の文章の参考を減らしました。",
+      "Context was reduced for {n} part(s) because of length."
+    ],
+    "docResult": [
+      "翻訳結果（文書）",
+      "Translation (document)"
+    ],
+    "docResultEmpty": [
+      "文書を翻訳すると、ここに表示されます。",
+      "The document translation will appear here."
+    ],
+    "docPairs": [
+      "部分ごとに原文と訳文を見る",
+      "View source and translation part by part"
+    ],
+    "docNotYet": [
+      "（まだ翻訳していません）",
+      "(not translated yet)"
+    ],
+    "docPartFailed": [
+      "（翻訳できませんでした）",
+      "(could not be translated)"
+    ],
+    "fileReading": [
+      "「{name}」を読み込んでいます…",
+      "Reading “{name}”…"
+    ],
+    "fileLoaded": [
+      "「{name}」を読み込みました（{kind}・{chars}文字）。",
+      "Loaded “{name}” ({kind}, {chars} characters)."
+    ],
+    "fileCheck": [
+      "読み込んだ文章に抜けや順番の乱れがないか、翻訳する前に確認してください（特に表・段組み・枠の中の文字）。",
+      "Before translating, check the loaded text for missing parts or wrong order (especially tables, columns and text boxes)."
+    ],
+    "fileTooLarge": [
+      "ファイルが大きすぎます（20 MBまで）。文書を分けてください。",
+      "The file is too large (20 MB maximum). Split the document."
+    ],
+    "fileOneAtATime": [
+      "1回に1ファイルです。最初のファイルだけ読み込みます。",
+      "One file at a time. Only the first file is loaded."
+    ],
+    "saveTitle": [
+      "翻訳結果を保存する",
+      "Save the translation"
+    ],
+    "saveFormat": [
+      "ファイルの形式",
+      "File format"
+    ],
+    "saveDocx": [
+      "Word（.docx）",
+      "Word (.docx)"
+    ],
+    "saveTxt": [
+      "テキスト（.txt、UTF-8）",
+      "Text (.txt, UTF-8)"
+    ],
+    "saveLayout": [
+      "保存する内容",
+      "What to save"
+    ],
+    "layoutTranslation": [
+      "訳文だけ",
+      "Translation only"
+    ],
+    "layoutPairs": [
+      "原文と訳文を交互に",
+      "Source and translation, alternating"
+    ],
+    "saveName": [
+      "ファイル名",
+      "File name"
+    ],
+    "savePreview": [
+      "保存する内容: {layout}（{done} / {total} 部分、約{chars}文字）",
+      "Will save: {layout} ({done} / {total} parts, about {chars} characters)"
+    ],
+    "savePartial": [
+      "翻訳できていない部分には「［この部分は翻訳されていません］」と入れて保存します。",
+      "Parts without a translation are saved with the note “[This part was not translated]”."
+    ],
+    "saveWhere": [
+      "保存先: このパソコンのブラウザの「ダウンロード」設定の場所です（通常は「ダウンロード」フォルダ）。Chromeの設定で「ダウンロード前に各ファイルの保存場所を確認する」をオンにすると、毎回場所を選べます。ファイルはこのパソコンの中で作り、インターネットには送りません。",
+      "Saved to: your browser's download location on this computer (usually the Downloads folder). In Chrome you can turn on “Ask where to save each file before downloading” to choose each time. The file is created on this computer and is not sent over the internet."
+    ],
+    "saveCloud": [
+      "注意: ダウンロード先がOneDrive・iCloud・Googleドライブなどと同期している場合、保存したファイルはそのサービスにも送られます。機密文書は同期しない場所に保存してください。",
+      "Note: if your download folder is synced with OneDrive, iCloud, Google Drive or similar, saved files are also sent to that service. Save confidential documents to a folder that is not synced."
+    ],
+    "saveButton": [
+      "このパソコンに保存する",
+      "Save to this computer"
+    ],
+    "saveDone": [
+      "「{name}」をブラウザのダウンロードに渡しました。保存場所はブラウザのダウンロード一覧で確認できます。",
+      "“{name}” was handed to the browser's download. Check its location in the browser's download list."
+    ],
+    "voice": [
+      "音声で入力（Chrome）",
+      "Voice input (Chrome)"
+    ],
+    "voiceStop": [
+      "音声入力を止める",
+      "Stop voice input"
+    ],
+    "voiceTitle": [
+      "音声入力について（外部送信あり）",
+      "About voice input (sent externally)"
+    ],
+    "voiceExplain1": [
+      "Chromeの音声入力は、話した音声をGoogleのサーバーに送って文字にします。このパソコンの中だけでは処理されません。",
+      "Chrome's voice input sends your speech to Google's servers to turn it into text. It is not processed only on this computer."
+    ],
+    "voiceExplain2": [
+      "翻訳そのものは、文字になった後でこのパソコンの中で行います。マイクの使用はChromeが別に確認します。同意はこのページを閉じるまで有効で、保存しません。",
+      "Translation itself happens on this computer after the text appears. Chrome asks separately for microphone permission. Agreement lasts until you close this page and is not saved."
+    ],
+    "voiceExplain3": [
+      "外部に出せない内容（機密・個人情報など）は話さないでください。キーボード入力なら外部に送られません。",
+      "Do not speak content that must not leave your computer (confidential or personal information). Typing is not sent externally."
+    ],
+    "voiceAgree": [
+      "音声がGoogleのサーバーに送られることを理解し、同意します。",
+      "I understand and agree that my speech is sent to Google's servers."
+    ],
+    "voiceCancel": [
+      "使わない",
+      "Don't use"
+    ],
+    "voiceStart": [
+      "同意して音声入力を始める",
+      "Agree and start voice input"
+    ],
+    "voiceListening": [
+      "聞き取り中（{language}）。音声はGoogleのサーバーに送られています。止めるときはボタンを押します。",
+      "Listening ({language}). Speech is being sent to Google's servers. Press the button to stop."
+    ],
+    "voiceStopped": [
+      "音声入力を止めました。",
+      "Voice input stopped."
+    ],
+    "voiceDenied": [
+      "マイクが使えません。Chromeのアドレスバー左のアイコンからマイクを許可するか、キーボードで入力してください。",
+      "The microphone is not allowed. Allow it from the icon at the left of Chrome's address bar, or type instead."
+    ],
+    "voiceNetwork": [
+      "音声認識のサーバーにつながりません。インターネット接続がない場合は使えません。",
+      "Cannot reach the speech recognition server. It does not work without an internet connection."
+    ],
+    "voiceNoSpeech": [
+      "音声が聞き取れませんでした。もう一度試してください。",
+      "No speech was detected. Try again."
+    ],
+    "voiceError": [
+      "音声入力を開始できませんでした。キーボードで入力してください。",
+      "Voice input could not start. Please type instead."
+    ],
+    "contextTokens": [
+      "一度に扱える長さ（コンテキスト長）",
+      "How much text the AI handles at once (context length)"
+    ],
+    "contextDefault": [
+      "（標準）",
+      "(standard)"
+    ],
+    "contextMax": [
+      "（モデルの学習時の上限）",
+      "(the model's training maximum)"
+    ],
+    "contextMeasured": [
+      "・この開発機で実測あり",
+      "· measured on the development Mac"
+    ],
+    "contextUnmeasured": [
+      "・未測定",
+      "· not measured"
+    ],
+    "contextExplain": [
+      "単位はトークン（AIが文章を数える単位。日本語ではおよそ1文字＝1トークン前後）です。原文・参考にする前の文章・訳文の合計がこの長さに収まる必要があります。翻訳AIを読み込む前に選びます。",
+      "The unit is tokens (how the AI counts text; roughly one Japanese character each). Source, earlier context and the translation must fit together. Choose before loading the AI."
+    ],
+    "contextWarning": [
+      "大きくすると一度に長い文章を扱えますが、処理が遅くなり、メモリが足りなくなることがあります。メモリ不足を検出したときは安全のため停止します。",
+      "Larger values handle longer text at once but are slower and may run out of memory. The app stops safely if it detects memory pressure."
+    ],
+    "contextMeasuredNote": [
+      "{value}トークンは、このモデルで開発用Mac（メモリ32GB）で実測しました（出力は短文のみ）。別のパソコンや長い出力での動作、翻訳の品質は保証しません。",
+      "{value} tokens was measured with this model on the development Mac (32 GB; short output only). Other computers, long outputs and translation quality are not guaranteed."
+    ],
+    "contextUnmeasuredNote": [
+      "{value}トークンは、このモデルでは実測していません。動く保証はありません。",
+      "{value} tokens has not been measured with this model. It is not guaranteed to work."
+    ],
+    "chunk2000": [
+      "とても長め（約2000文字）",
+      "Very long (about 2,000 characters)"
+    ],
+    "context4": [
+      "直前の4つ",
+      "The previous four parts"
+    ],
+    "glossaryLabel": [
+      "用語集（任意）",
+      "Glossary (optional)"
+    ],
+    "glossaryPlaceholder": [
+      "1行に1つ「原語 = 訳語」の形で書きます。例: 図書館 = library",
+      "One per line as “source = translation”. Example: 図書館 = library"
+    ],
+    "glossaryHelp": [
+      "決まった訳し方をしたい言葉を指定できます。用語集も一度に扱う長さに含めて計算します。",
+      "Specify fixed translations for terms. The glossary is counted in the length handled at once."
+    ],
+    "glossaryCount": [
+      "（{n}語を使います）",
+      "({n} terms will be used)"
+    ],
+    "docPlanning": [
+      "トークン数を数えて、分け方を決めています…（{total}部分から開始）",
+      "Counting tokens and deciding how to split… (starting from {total} parts)"
+    ],
+    "docBudget": [
+      "分割の目安: 1回あたり{budget}トークンまで（設定{cap}の8割。原文・前の文章・用語集・訳文の余裕を含む）。分割数: {total}部分。",
+      "Split target: up to {budget} tokens per pass (80% of {cap}, including source, earlier context, glossary and room for the translation). Parts: {total}."
+    ],
+    "docPlannedSplits": [
+      "長すぎた{n}か所を段落・文の区切りでさらに分けました。",
+      "{n} long part(s) were split further at paragraph or sentence breaks."
+    ],
+    "docResplit": [
+      "訳文が途中で切れた{n}か所を分け直して翻訳し直しました。",
+      "{n} part(s) were cut off and re-translated after splitting again."
+    ],
+    "docGlossaryUsed": [
+      "用語集{n}語を使用。",
+      "{n} glossary term(s) used."
+    ],
+    "autoSplitNotice": [
+      "上の文章は一度に翻訳できる長さを超えたため、ここで自動的に分けて翻訳しています。",
+      "The text above was too long for one pass, so it is being split and translated here automatically."
+    ],
+    "limitAuto": [
+      "自動（推奨）",
+      "Automatic (recommended)"
+    ],
+    "pdfReading": [
+      "「{name}」を読み込んでいます…（{n} / {total} ページ）",
+      "Reading “{name}”… (page {n} / {total})"
+    ],
+    "pdfDetail": [
+      "PDF・{pages}ページ",
+      "PDF, {pages} pages"
+    ],
+    "pdfNoText": [
+      "このPDFには文字情報がありません。スキャンした画像だけのPDFの可能性があります（文字を読み取る機能＝OCRはありません）。",
+      "This PDF has no embedded text. It may be scanned images only (there is no OCR)."
+    ],
+    "pdfEmptyPages": [
+      "文字情報のないページがあります（{total}ページ中{n}ページ: {pages}ページ目）。画像だけのページの可能性があり、その内容は読み込んでいません。",
+      "Some pages have no embedded text ({n} of {total}: page {pages}). They may be images only and were not read."
+    ],
+    "pdfColumns": [
+      "段組み（2列）のように見えるページがあります（{pages}ページ目）。読む順番が入れ替わっていないか確認してください。",
+      "Some pages look like two columns (page {pages}). Check that the reading order is correct."
+    ],
+    "pdfOrder": [
+      "PDFは見た目の配置から文章を組み立てるため、段組み・表・図の説明・脚注・ヘッダーで順番の乱れや抜け、余分な文字が入ることがあります。",
+      "PDF text is rebuilt from the page layout, so columns, tables, captions, footnotes and headers may cause wrong order, missing text or extra text."
+    ],
+    "pdfPassword": [
+      "パスワードで保護されたPDFは読み込めません。保護を外す権限がある場合だけ、外してから読み込んでください。",
+      "Password-protected PDFs cannot be read. Remove the protection first only if you are allowed to."
+    ],
+    "pdfInvalid": [
+      "PDFファイルが壊れているか、PDFとして読めません。",
+      "The PDF is damaged or cannot be read as a PDF."
+    ],
+    "pdfFailed": [
+      "PDFを読み込めませんでした。別の方法で保存したPDFか、テキスト・Wordで試してください。",
+      "The PDF could not be read. Try a PDF saved another way, or a text or Word file."
+    ],
+    "fileTooLong": [
+      "文章が長すぎます（20万文字まで）。文書を分けてください。",
+      "The text is too long (200,000 characters maximum). Split the document."
+    ],
+    "beginnerGuide": [
+      "0.8 はじめての手順（Python導入から）",
+      "0.8 first-run steps (English summary)"
+    ],
+    "sourceLang": [
+      "翻訳元の言語",
+      "Translate from"
+    ],
+    "targetLang": [
+      "翻訳先の言語",
+      "Translate into"
+    ],
+    "swap": [
+      "入れ替え",
+      "Swap"
+    ],
+    "autoDetect": [
+      "自動で判定",
+      "Detect automatically"
+    ],
+    "pairOfficial": [
+      "この組み合わせは、モデルの公式説明に性能評価があります（日本語または英語と、主要14言語の間）。",
+      "This pair is in the model's published evaluation (Japanese or English with 14 major languages)."
+    ],
+    "pairUnevaluated": [
+      "この組み合わせは、モデルが対応する言語どうしですが、公式の性能評価には含まれていません。訳文を特によく確認してください。",
+      "Both languages are supported by the model, but this pair is not in its published evaluation. Check the translation carefully."
+    ],
+    "pairAuto": [
+      "翻訳元の言語はAIが原文から判定します。判定を誤ることがあります。短い文や複数の言語が混ざった文では、翻訳元を指定してください。",
+      "The AI detects the source language from the text and can be wrong. For short or mixed-language text, choose the source language."
+    ],
+    "pairConfirmed": [
+      "このAIで、この試作による短文の応答を確認済みです（正確さの保証ではありません）。",
+      "This prototype got a result for a short sample with this AI (not a guarantee of accuracy)."
+    ],
+    "pairNotConfirmed": [
+      "このAIでのこの組み合わせは、この試作ではまだ試していません。",
+      "This prototype has not yet tried this pair with this AI."
+    ],
+    "pairSame": [
+      "翻訳元と翻訳先に同じ言語が選ばれています。別の言語を選んでください。",
+      "The same language is selected for both. Choose different languages."
+    ],
+    "reverseAuto": [
+      "翻訳元が「自動で判定」のため、元の言語に戻せません。翻訳元の言語を指定して翻訳し直してください。",
+      "The source was detected automatically, so it cannot be translated back. Choose the source language and translate again."
+    ],
+    "docStale": [
+      "上の「読み込んだ文章」が、翻訳したときの文章と違います。この結果は保存できません。もう一度「文書を翻訳する」を押してください。",
+      "The loaded text above differs from the text that was translated, so this result cannot be saved. Press “Translate document” again."
+    ],
+    "platformGguf": [
+      "対象: Windows 11（x64）とMac（Apple Silicon）・GGUF形式（llama.cpp b11938で実行）",
+      "For: Windows 11 (x64) and Mac (Apple Silicon) · GGUF format (runs with llama.cpp b11938)"
+    ],
+    "modelMacCpuTested": [
+      "このモデルは、開発用のMacでグラボを使わない設定（CPUのみ）で短文の翻訳を確認しました。Windowsでの動作と速さは未確認です。",
+      "Short samples were translated on the development Mac using the CPU only. Windows operation and speed are not yet verified."
+    ],
+    "modelWindowsTrial": [
+      "Windowsでは試験中です（未確認）。同じ仕組みをMacのCPUで確認済みです。動かない場合や遅い場合は、設定ガイドの「困ったとき」を見てください。",
+      "Being trialled on Windows (not yet verified). The same setup was checked on a Mac using the CPU. If it does not work or is slow, see the troubleshooting section of the setup guide."
+    ],
+    "runtimeLabelGguf": [
+      "③ 実行プログラム（llama.cpp b11938）のフォルダ",
+      "3. Runtime folder (llama.cpp b11938)"
+    ],
+    "runtimeHelpGguf": [
+      "実行プログラムはモデルを動かす道具です。Windowsでは llama-server.exe とDLLなど、固定版一式が入ったフォルダを指定します。Macは llama-server とライブラリ一式です。exeだけを取り出さず、モデルとは別のフォルダで保管することをおすすめします。",
+      "The runtime runs the model. On Windows, choose the folder with llama-server.exe and the complete pinned DLL/file set. On Mac, it contains llama-server and its libraries. Keep the whole set together, preferably separate from the model folder."
+    ],
+    "modelMacWindowsCpuTested": [
+      "Mac mini M6（32GB）とWindows 11（Ryzen 5 8645HS・16GB）のCPUで確認済みです。Windowsでは日英の短文・3段落文書を長さ4,096で試しました。正確さや別のパソコンでの動作は保証しません。",
+      "Checked on the CPUs of a Mac mini M6 (32 GB) and a Windows 11 laptop (Ryzen 5 8645HS, 16 GB). Windows tests used short Japanese/English samples and a three-paragraph document with a 4,096-token context. Accuracy and operation on other computers are not guaranteed."
+    ],
+    "advancedExisting": [
+      "既存ファイルを使う・詳しい設定",
+      "Use existing files / advanced settings"
+    ],
+    "beginnerFlow": [
+      "初回の流れ: ① 2Bを準備 → ② 利用条件を確認してAIを読み込む → ③ 下の「文書を翻訳する」でWord（.docx）を選ぶ → 英語から日本語へ翻訳。",
+      "First run: 1. Prepare 2B → 2. Review the terms and load the AI → 3. Choose a Word (.docx) file under “Translate a document” → translate English to Japanese."
+    ],
+    "trialScope": [
+      "初回対象: Windows 11（x64）とChrome。Windows 2B・CPUはRyzen 5 8645HS／16GB、MacはMac mini M6／32GBでの実測です。他の構成は保証しません。スマホはアプリ未対応、GPUは未検証です。8BはMacの独立MLX短文試験のみ実施済みで、アプリ内・Windowsは未検証です。0.8BもWindows未検証です。",
+      "Initial target: Windows 11 (x64) and Chrome. Windows 2B CPU was tested on Ryzen 5 8645HS / 16 GB; Mac tests used a Mac mini M6 / 32 GB. Other configurations are not guaranteed. Smartphones are not supported; GPU use is unverified. 8B has passed independent Mac MLX short-text tests only, not tests in this app or on Windows. 0.8B is also unverified on Windows."
+    ],
+    "prepareTitle": [
+      "初めてなら、2Bを準備",
+      "First time? Prepare 2B"
+    ],
+    "prepareIntro": [
+      "2BモデルとCPU用の実行プログラムを、公式の決まった版から取得します。内容を確認するだけではダウンロードしません。",
+      "Download the 2B model and CPU runtime from fixed official versions. Reviewing the plan does not start a download."
+    ],
+    "preparePlan": [
+      "2Bの準備内容を見る",
+      "Review 2B preparation"
+    ],
+    "prepareRetry": [
+      "内容を確認して再試行",
+      "Review the plan and retry"
+    ],
+    "prepareSize": [
+      "取得容量: 約{size}（モデル＋実行プログラム）。",
+      "Download: about {size} (model and runtime)."
+    ],
+    "prepareSpace": [
+      "必要な空き容量: 約{required}。現在の空き容量: 約{free}。取得前にもう一度確認します。",
+      "Required free space: about {required}. Currently free: about {free}. Space is checked again before downloading."
+    ],
+    "prepareDestinations": [
+      "外部通信先",
+      "External download destinations"
+    ],
+    "prepareSaveTo": [
+      "保存先（この利用者の専用フォルダ）",
+      "Save to (this user’s app folder)"
+    ],
+    "preparePrivacy": [
+      "取得中はインターネット接続が必要です。原文・訳文やWordファイルをこれらの取得先へ送りません。取得後も、AIは自動では起動しません。",
+      "Internet access is needed for preparation. Source text, translations and Word files are not sent to these download sites. The AI will not start automatically afterwards."
+    ],
+    "prepareRuntimeLicense": [
+      "llama.cppの利用条件（外部サイト）",
+      "llama.cpp terms (external website)"
+    ],
+    "prepareRegistration": [
+      "PLaMo商用利用の公式登録フォーム",
+      "Official PLaMo commercial-use registration form"
+    ],
+    "prepareCommercial": [
+      "非商用利用は登録不要です。商用の無償利用には、ユーザー又はその関係会社の直近事業年度の収入又は売上が10億円を超えないことと、用途を事前登録することが必要です。超える場合はPFNとの別途ライセンス契約が必要です。作者の登録は利用者の登録を代替しません。組織内部利用も商用に含まれます。詳しくは公式利用条件を確認してください。",
+      "Non-commercial use requires no registration. Free commercial use requires that the revenue or sales of the user or its affiliates in the most recent fiscal year do not exceed JPY 1 billion, plus advance registration of the use. Above that threshold, a separate licence agreement with PFN is required. The app author’s registration does not cover users. Internal organizational use is also commercial use. Check the official terms for details."
+    ],
+    "prepareCancelNote": [
+      "途中で中止できます。未完成ファイルは翻訳には使わず、再試行用に保存します。次回は内容を確認して再開できます。確認済みの完成ファイルも残ります。中止や終了は安全に止まるまで少し待つことがあります。",
+      "You can cancel. Partial files are not used for translation; they are kept so you can review the plan and resume later. Verified completed files also remain. Cancelling or quitting can take a little time to stop safely."
+    ],
+    "prepareConsent": [
+      "容量・通信先・保存先・公式利用条件と、自分の用途に必要な登録を確認し、この内容で取得することに同意します。",
+      "I reviewed the size, destinations, save location, official terms and any registration required for my use, and agree to this download."
+    ],
+    "prepareStart": [
+      "確認してダウンロードする",
+      "Confirm and download"
+    ],
+    "prepareCancel": [
+      "準備を中止する",
+      "Cancel preparation"
+    ],
+    "prepareUse": [
+      "このモデルを使う",
+      "Use this model"
+    ],
+    "prepareUseNote": [
+      "準備済みの場所を入力しました。下の利用条件チェックを確認して「翻訳AIを読み込む」を押してください。",
+      "The prepared folders are filled in. Review the terms checkbox below, then choose “Load translation AI”."
+    ],
+    "prepareProgress": [
+      "{done} / {total} ・ {file}",
+      "{done} / {total} · {file}"
+    ],
+    "prepareStopFirst": [
+      "準備やモデルの切り替えは「翻訳AIを止める」を押してから行ってください。",
+      "Choose “Stop translation AI” before preparing or switching models."
+    ],
+    "prepareFailed": [
+      "2Bの準備を続けられませんでした。内容を確認して再試行してください。",
+      "2B preparation could not continue. Review the plan and retry."
+    ],
+    "prepareUseFailed": [
+      "準備完了の状態を確認できません。ほかの処理が終わってからもう一度試してください。",
+      "Could not confirm that preparation is complete. Wait for other work to finish and try again."
+    ],
+    "preparePhase_idle": [
+      "まだ取得していません。内容を確認してから始めます。",
+      "Nothing has been downloaded. Review the plan to begin."
+    ],
+    "preparePhase_checking": [
+      "保存先・空き容量・既存ファイルを確認しています。",
+      "Checking the save location, free space and existing files."
+    ],
+    "preparePhase_downloading": [
+      "公式ファイルを取得しています。",
+      "Downloading official files."
+    ],
+    "preparePhase_verifying": [
+      "ファイルのサイズとハッシュを照合しています。",
+      "Verifying file sizes and hashes."
+    ],
+    "preparePhase_extracting": [
+      "実行プログラムを展開し、照合しています。",
+      "Extracting and checking the runtime."
+    ],
+    "preparePhase_ready": [
+      "検証完了。「このモデルを使う」で選べます。AIはまだ起動していません。",
+      "Verification complete. Choose “Use this model” to select it. The AI has not started."
+    ],
+    "preparePhase_cancelling": [
+      "安全に中止しています。少しお待ちください。",
+      "Stopping safely. Please wait."
+    ],
+    "preparePhase_cancelled": [
+      "中止しました。再開する場合は内容を確認してください。",
+      "Cancelled. Review the plan to try again."
+    ],
+    "preparePhase_error": [
+      "準備が止まりました。下の内容を確認してください。",
+      "Preparation stopped. Check the details below."
+    ],
+    "modelIsolatedMlxTested": [
+      "Macで公式MLXを使った独立した短文試験は済んでいます。このアプリへの組込みとWindowsでの動作は未確認のため、この版ではまだ読み込めません。",
+      "Independent short-text tests using official MLX on Mac are complete. Integration into this app and Windows operation are unverified, so this build cannot load this model yet."
+    ],
+    "modelExperimental": [
+      "実機での正常動作は未確認。CPUで実行し、動作・必要メモリ・速度は保証できません。",
+      "Successful operation on a real PC is not verified. CPU execution; operation, memory requirements and speed are not guaranteed."
+    ],
+    "groupExperimental": [
+      "未検証の試用（Windows・外部モデル指定）",
+      "Unverified trials (Windows, external models)"
+    ],
+    "experimentalSuffix": [
+      "（未検証の試用）",
+      "(unverified trial)"
+    ],
+    "experimentalDetails": [
+      "外部モデル指定の対象・注意点",
+      "External model files and trial details"
+    ],
+    "experimentalScope": [
+      "Windows x64のみ。自分で取得した下記の公式PLaMo GGUF Q4_K_M固定版だけを指定できます。別モデル・別量子化・別の版は使えません。8B/31Bの自動取得はありません。",
+      "Windows x64 only. Select the official PLaMo GGUF Q4_K_M file and pinned revision below that you obtained yourself. Other models, quantizations and revisions are not supported. 8B/31B are not downloaded automatically."
+    ],
+    "experimentalFile": [
+      "対象: {name} ／ ファイル約{size} GB（実行RAMではありません）。固定版: {revision}",
+      "Required: {name} / file about {size} GB (not the RAM needed to run it). Pinned revision: {revision}"
+    ],
+    "experimentalSource": [
+      "対象の公式ファイルを見る（外部サイト）",
+      "View the required official file (external website)"
+    ],
+    "experimentalResources": [
+      "大きなメモリを使い、検査や読込・翻訳に長時間かかったり、メモリ監視や時間制限で停止する可能性があります。長さ4,096・短文から試してください。検査中も「翻訳AIを止める」で中止できます。実行環境は公式llama.cpp b11938のWindows CPU版に固定し、全ファイルを検査します。GPUは使いません。",
+      "This can use substantial memory, take a long time to verify, load or translate, or stop due to memory guards or time limits. Start with 4,096 tokens and a short text. Stop translation AI also cancels verification. The runtime is pinned to the official llama.cpp b11938 Windows CPU build, with every required file checked. No GPU is used."
+    ],
+    "experimentalAck": [
+      "実機での正常動作が未確認で、CPU実行・動作/必要メモリ/速度の保証がないことを理解し、今回だけ試します。",
+      "I understand successful operation on a real PC is not verified, this is CPU-only with no guarantees of operation, memory requirements or speed, and I want to try this load."
+    ],
+    "platformExperimental": [
+      "Windows x64 / CPUのみ（未検証の試用）",
+      "Windows x64 / CPU only (unverified trial)"
+    ],
+    "chooseFolder": [
+      "フォルダを選ぶ",
+      "Choose folder"
+    ],
+    "pathOrderGguf": [
+      "①上の一覧でモデルサイズを選ぶ → ②GGUFの保存フォルダ → ③実行プログラムのフォルダを確認します。",
+      "1. Select a model size above → 2. Select its GGUF folder → 3. Check the runtime folder."
+    ],
+    "pathOrderMlx": [
+      "上の一覧でモデルを選んでから、そのモデルの保存フォルダとMLX用Pythonを指定します。",
+      "Select a model above, then provide its model folder and MLX Python."
+    ],
+    "modelLabelGguf": [
+      "② モデル本体（GGUF）を保存したフォルダ",
+      "2. Folder containing the model (GGUF)"
+    ],
+    "modelHelpGguf": [
+      "モデルは翻訳のためのデータです。選んだサイズの公式固定版 .gguf が入ったフォルダを指定します。複数サイズがあっても、上の一覧で選んだ固定ファイルだけを使います。モデルだけでは動かず、次の実行プログラムも必要です。",
+      "The model is translation data. Choose the folder containing the pinned official .gguf for the selected size. If several sizes are present, only the selected model’s pinned file is used. A model alone cannot run: it also needs the runtime below."
+    ],
+    "modelHelpMlx": [
+      "選んだモデルの重み・設定などが一式入ったMLXフォルダです。GGUFとは別の形式です。",
+      "Choose the MLX folder containing the selected model’s weights and configuration. MLX and GGUF are different formats."
+    ],
+    "modelPlaceholderGguf": [
+      "GGUFを入れたフォルダの場所",
+      "Path to the folder containing the GGUF"
+    ],
+    "runtimePlaceholderGguf": [
+      "空欄なら2B準備の保存したものを自動検査",
+      "Leave blank to check the existing 2B setup cache"
+    ],
+    "pathPickerHelp": [
+      "「フォルダを選ぶ」はファイルではなくフォルダを選びます。選択画面が応答しないときは閉じるかタイムアウトを待ち、Explorerのアドレスバー（MacはFinderのフォルダのパス）から場所をコピーして欄に直接貼り付けられます。",
+      "“Choose folder” selects a folder, not a file. If the picker does not respond, close it or wait for it to time out, then paste the folder path directly from the Explorer address bar (or the folder path in Finder on Mac)."
+    ],
+    "runtimeCheck": [
+      "既存の実行プログラムを再確認",
+      "Recheck existing runtime"
+    ],
+    "runtimeExplicit": [
+      "入力された場所を優先します。読み込み時に固定版一式を検査し、不正な場所でも別の場所へ自動では切り替えません。",
+      "The entered path takes priority. The full pinned file set is checked on load. An invalid path never silently falls back to another location."
+    ],
+    "runtimeCacheIdle": [
+      "空欄なら、以前の2B準備で保存した実行プログラムを自動検査します。",
+      "When blank, the app checks the runtime saved by earlier 2B preparation."
+    ],
+    "runtimeCacheChecking": [
+      "既存の実行プログラムを検査中です。ファイルのSHA-256を確認しています。モデルの取得や起動はしていません。",
+      "Checking the existing runtime and its SHA-256 hashes. No model is being downloaded or started."
+    ],
+    "runtimeCacheReady": [
+      "既存の実行プログラムを確認しました。空欄のまま利用できます。読み込み時にも再検査します。モデルの動作確認や利用条件への同意ではありません。",
+      "Existing runtime verified. You can leave this field blank; it will be checked again on load. This does not verify model operation or accept any terms."
+    ],
+    "runtimeCacheMissing": [
+      "既存の実行プログラムが見つかりません。手元にある固定版の実行プログラムフォルダを指定するか、「2Bの準備内容を見る」から必要な取得を確認してください。",
+      "No existing runtime found. Enter your pinned runtime folder, or choose “Review 2B preparation” to review the required downloads."
+    ],
+    "runtimeCacheInvalid": [
+      "既存の実行プログラムが不一致・破損、または安全に確認できません。自動では使いません。GGUFなど余分なファイルも自動検出では受け付けません。手動で指定した場所も、読み込み時に固定版と安全性を検査します。",
+      "The cache differs, is damaged, or cannot be checked safely. It will not be used automatically. Automatic detection also rejects extra files, including GGUFs. A manually entered folder is still checked for the pinned version and safety on load."
+    ],
+    "runtimeCacheUnavailable": [
+      "既存の実行プログラムを確認できませんでした。接続・準備状況を確認して再確認するか、フォルダを直接指定してください。",
+      "Could not check the existing runtime. Check the connection/setup state and retry, or enter the folder directly."
+    ],
+    "runtimeCacheScope": [
+      "自動検出は、このアプリの2B準備の既定保存先だけを調べます。取得・移動・設定保存・利用条件への自動同意はしません。",
+      "Automatic detection checks only this app’s default 2B setup location. It does not download, move files, save settings or accept terms."
+    ],
+    "prepareFound": [
+      "以前準備した2B（ファイル名と容量が一致）がこのパソコンに見つかりました。読み込み時に内容をSHA-256で検査し、合格すれば再ダウンロードせずに使えます。AIはまだ起動していません。",
+      "A 2B model prepared earlier (matching file name and size) was found on this computer. Its contents are checked with SHA-256 on load; if that check passes, you can reuse it without downloading again. The AI has not started."
+    ],
+    "prepareFoundUse": [
+      "見つかった2Bを使う",
+      "Use the 2B that was found"
+    ],
+    "prepareFoundNote": [
+      "モデルの場所を入力しました。実行プログラムの欄は空のままで、準備済みのものを自動検査します。下の利用条件チェックを確認して「翻訳AIを読み込む」を押してください。読み込むときに内容をSHA-256で検査します。",
+      "The model folder is filled in. The runtime field stays blank so the prepared runtime is checked automatically. Review the terms checkbox below, then choose “Load translation AI”. The contents are verified with SHA-256 on load."
+    ],
+    "exportMissing": [
+      "［この部分は翻訳されていません］",
+      "[This part was not translated]"
+    ],
+    "groupUnconfirmed": [
+      "読み込めるが、このパソコンのOSでは未確認",
+      "Loadable, but not yet checked on this OS"
+    ],
+    "largeSuffix": [
+      "（大容量 約{size} GB）",
+      "(large, about {size} GB)"
+    ],
+    "modelLarge": [
+      "大きなモデルです（重み約{size} GB）。読み込みに時間がかかり、多くのメモリを使います。必要なメモリは未確定です。初めての方は2B GGUFから試してください。",
+      "This is a large model (weights about {size} GB). Loading takes time and uses a lot of memory; the memory needed is not yet known. If this is your first time, start with 2B GGUF."
+    ],
+    "modelNotCheckedHere": [
+      "このパソコンのOSでの動作は未確認です。",
+      "Operation on this OS is not yet verified."
+    ]
+  },
+  "messages": {
+    "対応する言語を一覧から選んでください。": "Choose a supported language from the list.",
+    "モデルフォルダを選んでください。": "Choose the folder containing the model.",
+    "フォルダが見つかりません。GGUFファイルではなく、PLaMo MLXのフォルダを選んでください。": "The folder was not found. Choose the PLaMo MLX folder, not a GGUF file.",
+    "Python実行環境が見つかりません。設定ガイドを開いてください。": "The required Python environment was not found. Open the setup guide.",
+    "モデルを選んで始めましょう。": "Choose the translation AI to get started.",
+    "モデルの処理が終了しました。メモリや実行環境を確認して、もう一度読み込んでください。": "The AI process stopped. Check available memory and the setup, then load it again.",
+    "モデルを停止しました。メモリを解放しています。": "The translation AI has stopped and its memory is being released.",
+    "モデルを自分で取得し、利用条件を確認したことをチェックしてください。": "Check the box to confirm you obtained the model and reviewed its terms.",
+    "この試作のPLaMo MLX実行はApple Silicon Mac専用です。": "This PLaMo MLX prototype works only on an Apple Silicon Mac.",
+    "メモリ状態を確認できません。安全のため読み込みを開始しません。": "Memory status could not be checked. Loading was prevented for safety.",
+    "メモリの余裕が少ないため開始できません。他の大きなアプリを閉じてください。": "There is not enough available memory. Close other memory-intensive apps before trying again.",
+    "処理中です。停止してから切り替えてください。": "An operation is in progress. Stop it before switching.",
+    "別のモデルが読み込み済みです。先に「モデルを停止」を押してください。": "A model is already loaded. Choose “Stop translation AI” first.",
+    "PLaMoを準備中です。初回は数分かかることがあります。": "Preparing PLaMo. The first load may take a few minutes.",
+    "Pythonを起動できません。実行環境のパスを確認してください。": "Python could not be started. Check its location in Advanced settings.",
+    "実行環境を開始できませんでした。MLX、mlx-lm、Transformers、Numbaの導入状態をガイドで確認してください。": "The AI environment could not start. Check the setup guide for MLX, mlx-lm, Transformers, and Numba.",
+    "待ち時間の上限を超えました。原文を短くするか、実行環境を確認してください。": "The operation took too long. Shorten the text or check the setup.",
+    "安全のため処理を停止しました。設定やメモリを確認してください。": "The process was stopped for safety. Check the setup and available memory.",
+    "モデルを読み込めません。": "The translation AI could not be loaded.",
+    "準備できました。文章を入力してください。": "Ready. Enter the text you want to translate.",
+    "メモリの監視ができなくなったため、安全のためモデルを停止しました。実行環境を確認してから読み込み直してください。": "Memory monitoring stopped working, so the AI was stopped for safety. Check the setup before loading again.",
+    "原文を1〜2000文字で入力してください。": "Enter between 1 and 2,000 characters.",
+    "原文にPLaMoの予約トークンが含まれています。通常の文章だけを入力してください。": "The text contains a reserved PLaMo control token. Enter ordinary text only.",
+    "出力上限を選び直してください。": "Choose an output length limit from the list.",
+    "モデルの準備ができていません。処理中の場合は完了を待ってください。": "The AI is not ready. If it is busy, wait for the current operation to finish.",
+    "モデルと通信できません。もう一度読み込んでください。": "The app could not reach the AI process. Load it again.",
+    "翻訳が終わりました。": "Translation finished.",
+    "入力を確認してください。": "Please check the input.",
+    "翻訳に失敗しました。": "Translation failed.",
+    "見つかりません。": "Not found.",
+    "入力サイズまたは形式が正しくありません。": "The input size or format is invalid.",
+    "入力形式が正しくありません。": "The input format is invalid.",
+    "モデルの場所を直接入力してください。": "Enter the model folder location directly.",
+    "フォルダ選択がタイムアウトしました。もう一度選ぶか、場所を入力してください。": "Folder selection timed out. Choose again or enter the location.",
+    "ファイルまたは入力を確認してください。": "Check the file or input.",
+    "処理を続けられませんでした。モデルを停止し、もう一度試してください。": "The operation could not continue. Stop the translation AI and try again.",
+    "トークン数が多すぎます。文章を短く分けてください。": "The text exceeds the processing limit. Split it into shorter parts.",
+    "出力上限に達しました。文章を短くするか、出力上限を増やしてください。": "The result was cut off at the output limit. Shorten the text or choose a longer output limit.",
+    "対応する翻訳AIを一覧から選んでください。": "Choose a supported translation AI from the list.",
+    "この翻訳AIは追加準備中です。取得と動作確認が終わるまで読み込めません。": "This translation AI is being prepared. It cannot be loaded until download and validation are complete.",
+    "この翻訳AIの検査情報がありません。安全のため読み込みません。": "Validation information for this AI is missing. Loading was prevented for safety.",
+    "翻訳AIと検査情報の版が一致しません。安全のため読み込みません。": "The AI and its validation information use different versions. Loading was prevented for safety.",
+    "このパソコンで翻訳しています。": "Translating on this computer.",
+    "このパソコンの画面から開いてください。": "Open the app on this computer.",
+    "このパソコンのアプリ画面から操作してください。": "Use the app page on this computer.",
+    "このパソコンで起動したアプリから開いてください。": "Open the page from the app started on this computer.",
+    "翻訳する文章がありません。": "There is no text to translate.",
+    "文章が長すぎます（20万文字まで）。文書を分けてください。": "The text is too long (200,000 characters maximum). Split the document.",
+    "一度に翻訳する長さを選び直してください。": "Choose the length per part again.",
+    "前後の文脈の設定を選び直してください。": "Choose the context setting again.",
+    "このパソコンで文書を翻訳しています。": "Translating the document on this computer.",
+    "文書の翻訳を中断しました。ここまでの結果は残っています。": "Document translation stopped. Results so far are kept.",
+    "文書の翻訳が終わりました。": "Document translation finished.",
+    "中断しています。今の部分が終わったら止まります。": "Stopping after the current part.",
+    "文書を翻訳中です。先に中断してください。": "A document is being translated. Stop it first.",
+    "翻訳中は消せません。終わるのを待つか、中断してください。": "Text cannot be cleared while translating. Wait or stop first.",
+    "比べる翻訳結果が見つかりません。もう一度翻訳してください。": "The translation to compare was not found. Translate again.",
+    "保存する形式を選び直してください。": "Choose the file format again.",
+    "ファイルが大きすぎます（20 MBまで）。文書を分けてください。": "The file is too large (20 MB maximum). Split the document.",
+    "保存する内容が正しくありません。": "The content to save is invalid.",
+    "保存する内容を選び直してください。": "Choose what to save again.",
+    "保存する翻訳結果がありません。": "There is no translation to save.",
+    "保存する文章が長すぎます。": "The text to save is too long.",
+    "ファイルが空です。": "The file is empty.",
+    "文字のファイルとして読めません。テキスト、Word（.docx）のファイルを選んでください。": "This cannot be read as text. Choose a text or Word (.docx) file.",
+    "文字コードを判別できません。UTF-8で保存し直してください。": "The text encoding could not be detected. Save it again as UTF-8.",
+    "Wordファイルを開けません。ファイルが壊れていないか確認してください。": "The Word file cannot be opened. Check that it is not damaged.",
+    "Wordファイルを開けません。ファイルが壊れていないか、パスワードが付いていないか確認してください。": "The Word file cannot be opened. Check that it is not damaged or password-protected.",
+    "Word（.docx）の本文が見つかりません。": "The body of the Word (.docx) file was not found.",
+    "ファイルの展開後の容量が大きすぎます。文書を分けてください。": "The file expands to too large a size. Split the document.",
+    "Wordの本文が大きすぎます。文書を分けてください。": "The Word body is too large. Split the document.",
+    "安全のため、この形式のWordファイルは読み込みません。": "For safety, this kind of Word file is not loaded.",
+    "画像が含まれています。画像の中の文字は読み込みません。": "The file contains images. Text inside images is not read.",
+    "脚注・文末脚注は読み込んでいません。": "Footnotes and endnotes were not loaded.",
+    "ヘッダー・フッターは読み込んでいません。": "Headers and footers were not loaded.",
+    "コメント（校閲のメモ）は読み込んでいません。": "Comments (review notes) were not loaded.",
+    "古い形式のWord（.doc）には対応していません。Wordで開き、「名前を付けて保存」で「Word文書（.docx）」を選んでから読み込んでください。": "Old Word files (.doc) are not supported. Open it in Word, choose “Save As”, select “Word Document (.docx)”, then load that file.",
+    "画像ファイルは対象外です。画像の中の文字を読み取る機能（OCR）はありません。": "Image files are not supported. There is no text recognition (OCR).",
+    "このZIP形式のファイルには対応していません。テキストかWord（.docx）を選んでください。": "This ZIP-based file is not supported. Choose a text or Word (.docx) file.",
+    "この形式には対応していません。テキスト（.txt）かWord（.docx）で保存し直してください。": "This format is not supported. Save it as text (.txt) or Word (.docx).",
+    "翻訳AIの制御用の記号に似た文字列があったため、間に空白を入れました。": "Text resembling an AI control code was found, so a space was inserted.",
+    "文字を読み取れませんでした。画像だけの文書は対象外です。": "No text could be read. Image-only documents are not supported.",
+    "一度に扱える長さを一覧から選び直してください。": "Choose the context length from the list again.",
+    "一度に翻訳できる長さ（設定の8割）を超えています。文書として分けて翻訳します。": "This is longer than one pass allows (80% of the setting). It will be split and translated as a document.",
+    "トークン数を数えて、分け方を決めています。": "Counting tokens and deciding how to split.",
+    "この部分は文の途中でも分けられないほど長く、上限を超える可能性があります。結果を確認してください。": "This part is too long even when split mid-sentence and may exceed the limit. Check the result.",
+    "用語集は100行までです。": "The glossary can have up to 100 lines.",
+    "用語集の形式が正しくありません。": "The glossary format is invalid.",
+    "トークン数を数えられませんでした。": "Tokens could not be counted.",
+    "PDFは画面（ブラウザ）の中で読み込みます。ページを再読み込みしてから、もう一度PDFを選んでください。": "PDFs are read inside the page. Reload the page and choose the PDF again.",
+    "翻訳元と翻訳先に、別の言語を選んでください。": "Choose different source and target languages.",
+    "元の言語に戻すには、翻訳元の言語を指定してください。": "To translate back, choose the source language.",
+    "この翻訳AIは、このパソコンのOSでは使えません。": "This translation AI cannot be used on this computer's operating system.",
+    "llama.cppの検査情報がありません。安全のため読み込みません。": "Check information for llama.cpp is missing, so loading was prevented for safety.",
+    "このパソコンのOS用のllama.cppは、この版ではまだ用意していません。": "llama.cpp for this operating system is not prepared in this build.",
+    "llama.cppを起動できませんでした。設定ガイドでフォルダを確認してください。": "llama.cpp could not start. Check the folder in the setup guide.",
+    "モデルを読み込めませんでした（llama.cpp）。対応版・空きメモリを確認してください。": "The AI could not be loaded (llama.cpp). Check the supported version and free memory.",
+    "フォルダが見つかりません。GGUFファイルを保存したフォルダを選んでください。": "The folder was not found. Choose the folder that contains the GGUF file.",
+    "2Bの準備中は翻訳AIを操作できません。準備が終わるか、中止してから試してください。": "The AI cannot run during 2B preparation. Wait for preparation to finish or cancel it first.",
+    "2Bの準備情報を確認できませんでした。アプリを起動し直してください。": "Could not read 2B preparation information. Restart the app.",
+    "取得する内容と利用条件を確認し、チェックを入れてください。": "Review the download and terms, then check the consent box.",
+    "翻訳AIを止めてから、2Bの準備を始めてください。": "Stop the AI before starting 2B preparation.",
+    "自動準備は Windows 11 x64 と Apple Silicon Mac に対応しています。": "Automatic setup supports Windows 11 x64 and Apple Silicon Macs.",
+    "自動準備には Windows 11 以降が必要です。": "Automatic setup supports Windows 11 x64 and Apple Silicon Macs.",
+    "自動準備できる翻訳 AI は PLaMo 3 Translate 2B GGUF Q4_K_M のみです。": "Only PLaMo 3 Translate 2B GGUF Q4_K_M supports automatic setup.",
+    "保存先がフォルダではありません。": "The dedicated storage location is unavailable. Check the folder and permissions.",
+    "保存先に通常のファイル以外や予期しないリンクが見つかりました。": "A storage path contains a link or special file. Preparation stopped for safety.",
+    "公式配信先以外からは取得できません。": "Downloads are restricted to the official HTTPS distribution services.",
+    "Windows の保存先を確認できません。LOCALAPPDATA を確認してください。": "The dedicated storage location is unavailable. Check the folder and permissions.",
+    "固定版の検査情報が不正です。配布フォルダを確認してください。": "The pinned verification manifest is invalid. Check the app distribution.",
+    "保存先にリンクがあるため、安全のため準備を中止しました。": "A storage path contains a link or special file. Preparation stopped for safety.",
+    "公式配信先以外への転送を拒否しました。": "A redirect outside the official distribution services was blocked.",
+    "容量・配信先・ライセンス・保存先を確認し、取得に同意してください。": "Review the size, sources, licenses and storage location, then consent to download.",
+    "準備内容をもう一度表示してから、取得に同意してください。": "Display and review the current plan before consenting to download.",
+    "保存済みのモデルが固定版と異なります。上書きせず中止しました。": "The saved model differs from the pinned version. It was not overwritten.",
+    "保存済みの実行プログラムが固定版と異なります。上書きせず中止しました。": "The saved runtime differs from the pinned version. It was not overwritten.",
+    "保存先がすでに存在します。上書きせず中止しました。": "The destination already exists. It was not overwritten.",
+    "ファイルの検査に失敗しました。再試行すると最初から取得します。": "File verification failed. Retrying will download this file again from the beginning.",
+    "実行プログラムの圧縮ファイルの検査に失敗しました。": "The runtime archive failed verification.",
+    "圧縮ファイルに安全でない保存先があります。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "圧縮ファイルのフォルダ構成が固定版と異なります。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "展開した実行プログラムの検査に失敗しました。": "An extracted runtime file failed verification.",
+    "実行プログラムのファイルが不足しています。": "The runtime archive does not contain all required files.",
+    "別の画面で準備中です。完了してから再試行してください。": "Another app instance is preparing files. Wait for it to finish and try again.",
+    "アプリの終了中は準備を開始できません。": "Preparation cannot start while the app is closing.",
+    "実行プログラムの検査に失敗しました。上書きせず中止しました。": "The saved runtime differs from the pinned version. It was not overwritten.",
+    "実行プログラムのリンクが固定版と異なります。": "The saved runtime differs from the pinned version. It was not overwritten.",
+    "空き容量が足りません。保存先の空きを増やしてから再試行してください。": "Not enough free storage. Free up space at the storage location and retry.",
+    "保存済みの取得ファイルが破損しています。上書きせず中止しました。": "A saved download is damaged. It was not overwritten.",
+    "圧縮ファイルに未登録の項目があります。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "配信先のファイル形式が不正です。": "The server response cannot be read safely.",
+    "配信先のファイル容量が固定版と異なります。": "The download size differs from the pinned version.",
+    "通信が中断しました。「再開」で途中から続けられます。": "The download was interrupted. Choose Resume to continue.",
+    "展開ファイルが固定版の容量を超えています。": "An extracted file exceeds its pinned size.",
+    "圧縮ファイルに未登録の項目やリンクがあります。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "圧縮ファイルの展開容量が不正です。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "圧縮ファイルに重複項目があります。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "圧縮ファイルに未登録の項目や不正な容量があります。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "配信先から正しい取得応答がありません。": "The distribution service could not complete the download. Please try again.",
+    "圧縮ファイルに未登録のリンクがあります。": "The archive contains an unlisted file, unsafe path, link or invalid size.",
+    "配信先の再開情報が不正です。取得を中止しました。": "The server returned invalid resume information. The download was stopped.",
+    "取得したファイルが予定容量を超えています。": "The download size differs from the pinned version.",
+    "配信先の応答から安全に取得できません。": "The server response cannot be read safely.",
+    "この未検証の試用はWindows x64専用です。このパソコンでは読み込めません。": "This unverified trial is for Windows x64 only. It cannot load on this computer.",
+    "実機未検証・CPU実行・必要メモリと速度の保証がないことを確認し、未検証で試すチェックを入れてください。": "Review the untested, CPU-only trial and its lack of memory or speed guarantees, then check the trial box for this load.",
+    "選んだGGUFファイルは対応する固定版のファイル名と異なります。": "The selected GGUF filename does not match the supported pinned file.",
+    "モデルの検査を中止しました。": "Model verification was cancelled.",
+    "固定版のファイルをSHA-256で検査中です。大容量では時間がかかります。停止できます。": "Checking the pinned file with SHA-256. Large files may take time. You can stop verification.",
+    "モデルの検査を開始できませんでした。もう一度読み込んでください。": "Could not start model verification. Load the model again.",
+    "処理中または読み込み済みです。停止してから切り替えてください。": "An operation or loaded model is already active. Stop it before switching.",
+    "実行プログラムのフォルダを入力してください。": "Enter the runtime folder.",
+    "実行プログラムの検査を中止しました。": "Runtime verification was cancelled.",
+    "2B準備の実行プログラムが見つかりません。実行部フォルダを指定してください。": "The runtime from 2B preparation was not found. Enter the runtime folder.",
+    "2B準備の実行プログラムに不足・余分なファイルがあります。": "The 2B runtime cache has missing or extra files.",
+    "2B準備の実行プログラムのリンクが固定版と異なります。": "The 2B runtime cache links differ from the pinned version.",
+    "自動検出ではネットワーク上の保存先を調べません。": "Automatic detection does not inspect network locations.",
+    "自動検出では保存先がローカルのドライブか確認できません。": "Automatic detection could not confirm that the storage drive is local.",
+    "ファイルをSHA-256で検査しています。大きなモデルでは時間がかかります。「モデルを停止」で中断できます。": "Checking the files with SHA-256. This takes time for large models. Choose “Stop model” to cancel.",
+    "ネットワーク上の場所にある実行プログラムは、安全のため読み込みません。このパソコンの中（ローカルのドライブ）へフォルダごとコピーしてから指定してください。": "For safety, a runtime on a network location is not loaded. Copy the whole folder to a drive on this computer, then enter that location.",
+    "連続した空行は、1行の空行にまとめて読み込みました。保存するWordでも空行は1行になります。": "Consecutive blank lines were read as a single blank line. The saved Word file also keeps one blank line.",
+    "隠し文字（Wordで非表示に設定された文字。スタイルで非表示にしたものを含みます）が含まれています。隠し文字も読み込んでいます。翻訳や保存に含めたくない場合は、下の文章から削除してください。": "Hidden text (text set as hidden in Word, including through a style) is included and was read. Delete it from the text below if it should not be translated or saved."
+  }
+}

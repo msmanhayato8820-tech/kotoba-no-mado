@@ -1,0 +1,78 @@
+{
+  "date_utc": "2026-11-11",
+  "model": "pfnet/plamo-3-translate-2b-GGUF",
+  "revision": "4f672106b847200bfdc0f6af6c321cd94eba1aed",
+  "file": "plamo-3-translate-2b-Q4_K_M.gguf",
+  "sha256": "1ffd9073afcc70e35ccc942428aa2b73d7aa2b9ea779bf504b775369e0276c13",
+  "bytes": 1807203040,
+  "runtime": "llama.cpp b11938 (19cce6919)",
+  "os": "Windows 11 Home x64 10.0.26300.9974",
+  "cpu": "AMD Ryzen 5 8645HS w/ Radeon 760M Graphics",
+  "cores": 6,
+  "threads": 12,
+  "usable_ram_bytes": 14827769856,
+  "gpu_layers": 0,
+  "context": 4096,
+  "route": "core.Engine direct",
+  "load_seconds": 35.937,
+  "worker_ready_seconds": 33.31,
+  "ja_en": {
+    "source": "今日は図書館で新しい本を借りました。明日は公園で読書をする予定です。",
+    "output": "I borrowed a new book from the library today. I'm planning to read at the park tomorrow.",
+    "wall_seconds": 0.703,
+    "model_seconds": 0.7
+  },
+  "en_ja": {
+    "source": "The community library opens at nine in the morning. Visitors can borrow books for two weeks.",
+    "output": "地域の図書館は午前9時に開館します。利用者は本を2週間借りることができます。",
+    "wall_seconds": 0.906,
+    "model_seconds": 0.84
+  },
+  "document": {
+    "paragraphs": 3,
+    "segments": 2,
+    "chunk": 300,
+    "context_segments": 1,
+    "wall_seconds": 6.329,
+    "model_seconds": 6.2,
+    "failed": 0,
+    "cut_off": 0,
+    "source_exact_match": true,
+    "txt_docx_source_translation_match": true
+  },
+  "cancel": {
+    "during_generation": true,
+    "done": 0,
+    "segments": 4,
+    "status": "cancelled",
+    "seconds": 0.094
+  },
+  "reload": {
+    "wall_seconds": 4.562,
+    "worker_ready_seconds": 3.23,
+    "translation_after_reload": "Confirming safe stop and reload.",
+    "translation_wall_seconds": 0.609
+  },
+  "memory": {
+    "before_free_percent": 36,
+    "min_free_percent": 16,
+    "swap_growth_mb": 0,
+    "guards_unchanged": true
+  },
+  "chrome": {
+    "model_loaded": true,
+    "short_ja_en_seconds": 0.47,
+    "document_paragraphs": 3,
+    "document_segments": 1,
+    "document_seconds": 2.1,
+    "txt_docx_source_translation_match": true,
+    "file_upload_tested": false
+  },
+  "cleanup": {
+    "app_exit": 0,
+    "python_or_llama_server_remaining": 0,
+    "port_50740_listening": false,
+    "own_tab_closed": true
+  },
+  "note": "Single-run public samples, CPU only, 4096 context. Not a quality guarantee. No 8B, GPU or long-context validation. Additional shutdown-path regression results are documented separately."
+}

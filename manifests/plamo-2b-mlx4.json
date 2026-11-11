@@ -1,0 +1,112 @@
+{
+  "repo": "pfnet/plamo-3-translate-2b-MLX-4bit",
+  "revision": "b715145bec63f0dfe877699adbef182439b2047a",
+  "verify_weight_hashes": true,
+  "files": [
+    {
+      "name": "LICENSE/en",
+      "bytes": 9532,
+      "sha256": "ca0c5e90f6de6799fc2d2d4f2b2647cc088444c19f286f689e525d4ad28f9ed6"
+    },
+    {
+      "name": "LICENSE/ja",
+      "bytes": 10713,
+      "sha256": "7dd74339bbf9a39fe33e271a89657aacf06f452b082fcb1273fb792b8d6b7db2"
+    },
+    {
+      "name": "LICENSE.mlx-lm",
+      "bytes": 1066,
+      "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01"
+    },
+    {
+      "name": "README.md",
+      "bytes": 38768,
+      "sha256": "b80e9bc0daf0c563a1c39196b3b6aa83e3536c45dc340f55d7aa05b26781741f"
+    },
+    {
+      "name": "README_ja.md",
+      "bytes": 40943,
+      "sha256": "cbe454028de8b261b851dfeb7d88f273aac121a0ab54bad32542007e55c3471f"
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 5406,
+      "sha256": "633ae24b5166d2c958d9b0a39523f2cc5bd6832752ec2ab0285793cab6415323"
+    },
+    {
+      "name": "config.json",
+      "bytes": 22914,
+      "sha256": "dba9cddc2ce89752b025490fe2f40f59077c71db4d69b1ada16f6e6ae517133b"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 120,
+      "sha256": "0410d30499cd9db0a83ecbd59a2811b1c4f63f7c9412126a43e8d2b96ec44a85"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "bytes": 1073592520,
+      "sha256": "64018631034b196b9aa659e89489b36a51d5a51e06604547c26572046c61d5ec"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "bytes": 786878936,
+      "sha256": "d716ed0bbd1bd921b2fab1192aee450dc1eeb42ca6cb0df689a191d40912e7cc"
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "bytes": 550502496,
+      "sha256": "1de78bdebbdd0350666424a740a3d2f9a0d133aeb38e6968720a3ae5bcb7cae7"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 37969,
+      "sha256": "78989b7456840bfb25c31196a9ba7142ec81599a9736e796204205e106405404"
+    },
+    {
+      "name": "modeling_plamo_mlx.py",
+      "bytes": 12873,
+      "sha256": "eb6a576df1c20e9d40653671c8e63ded584661aa3f858ff5bee620357b479367"
+    },
+    {
+      "name": "requirements-mlx.txt",
+      "bytes": 30,
+      "sha256": "76435a701711159400d43dcb79a3fc26f2596e85fb79e5364c1b405ab1956fa6"
+    },
+    {
+      "name": "serve.py",
+      "bytes": 1115,
+      "sha256": "0d761798c750b0d4c59ae4731d1fe7f248c99f106f13a57a45a20df8152fedc9"
+    },
+    {
+      "name": "server.py",
+      "bytes": 5851,
+      "sha256": "a1e9d5d1d1be4899910f18b66c9f7b0c0022d5889c4fb9c2aeff5b6186b6a90f"
+    },
+    {
+      "name": "serving_memory.py",
+      "bytes": 916,
+      "sha256": "ab47c826552039580bf9e397a213e96d5849d4800c639e6bcb87763131168e12"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "bytes": 587,
+      "sha256": "1004b03ad5c184693765d25d8d682e831727b43b84e321fc9dc14d9ef3d1466a"
+    },
+    {
+      "name": "tokenization_plamo.py",
+      "bytes": 22389,
+      "sha256": "68b769d516541603857ce9d2813e48193efe41abb64c1091311b973d491724d9"
+    },
+    {
+      "name": "tokenizer.jsonl",
+      "bytes": 3526723,
+      "sha256": "bdce9e430e65931b28c56de2054f52b4cf8ed59b322db125e016d724d06dbb0e"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 1575,
+      "sha256": "5468ed5c68b5cf4cf971bcb34be6bfbfd749fe30cc5bc65ace5835ae3bff65b3"
+    }
+  ]
+}

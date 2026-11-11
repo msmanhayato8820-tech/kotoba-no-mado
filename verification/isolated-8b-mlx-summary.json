@@ -1,0 +1,67 @@
+{
+  "date_utc": "2026-11-11",
+  "model": "pfnet/plamo-3-translate-8b-MLX-4bit",
+  "revision": "3623015236aa51fe290f02cff01135dfcadb9816",
+  "scope": "Independent MLX short-sample test; not integrated in this app; not tested on Windows",
+  "machine": "Apple Silicon Mac, 32 GiB RAM",
+  "download_files": 27,
+  "download_bytes": 6071028728,
+  "all_file_hashes_verified": true,
+  "load_seconds": 2.609,
+  "context_tokens": 4096,
+  "output_limit_tokens": 256,
+  "mlx_peak_bytes": 6345580284,
+  "process_maxrss_bytes": 6414106624,
+  "swap_growth_mb": 0,
+  "worker_exit_code": 0,
+  "samples": [
+    {
+      "id": "ja_en",
+      "source": "ja",
+      "target": "en",
+      "text": "会議は来週の月曜日、午前10時に変更されました。参加できるか金曜日までにお知らせください。",
+      "output": "The meeting has been rescheduled for next Monday at 10 a.m. Please let me know by Friday whether you can attend.",
+      "seconds": 1.554
+    },
+    {
+      "id": "en_ja",
+      "source": "en",
+      "target": "ja",
+      "text": "The meeting has been moved to next Monday at 10 a.m. Please let us know by Friday whether you can attend.",
+      "output": "会議は来週月曜日の午前10時に変更となりました。出席できるかどうか、金曜日までにお知らせください。",
+      "seconds": 1.249
+    },
+    {
+      "id": "en_ja_glossary",
+      "source": "en",
+      "target": "ja",
+      "text": "The owner opens the project dashboard.",
+      "output": "オーナーはプロジェクトの管理画面を開きます。",
+      "seconds": 0.646
+    },
+    {
+      "id": "en_fr",
+      "source": "en",
+      "target": "fr",
+      "text": "The museum opens at 9 a.m. and closes at 6 p.m. on weekdays.",
+      "output": "Le musée ouvre à 9 h et ferme à 18 h en semaine.",
+      "seconds": 1.323
+    },
+    {
+      "id": "fr_en",
+      "source": "fr",
+      "target": "en",
+      "text": "Le musée ouvre à 9 heures et ferme à 18 heures en semaine.",
+      "output": "The museum opens at 9 a.m. and closes at 6 p.m. on weekdays.",
+      "seconds": 1.111
+    }
+  ],
+  "limits": [
+    "No app integration",
+    "No Windows or GGUF 8B run",
+    "No long-document or all-language quality test",
+    "Not a matched benchmark against 2B or 31B",
+    "Model-type warning was recorded; load and all samples succeeded"
+  ],
+  "official_model_url": "https://huggingface.co/pfnet/plamo-3-translate-8b-MLX-4bit/tree/3623015236aa51fe290f02cff01135dfcadb9816"
+}

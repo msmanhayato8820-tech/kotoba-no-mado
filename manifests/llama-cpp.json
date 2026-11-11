@@ -1,0 +1,407 @@
+{
+ "release": "b11938",
+ "published": "2026-10-27",
+ "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938",
+ "license": "MIT (llama.cpp); see LICENSE files in the release",
+ "note": "Every file in the folder is hashed. The app uses llama-server only when all listed libraries and executables match and no unlisted library is present.",
+ "binaries": {
+  "win32-x64": {
+   "archive": "llama-b11938-bin-win-cpu-x64.zip",
+   "archive_sha256": "9e2fc62604446d86809ca09094d3c7a7329b723bda636e4bbd23c3ce62cb77dc",
+   "archive_bytes": 24260998,
+   "exe": "llama-server.exe",
+   "files": {
+    "LICENSE-LLVM-OpenMP": {
+     "bytes": 19741,
+     "sha256": "fdad1758a9e1f9d5a81e18879b3406772115edc92c24bfa36b70c654f325e8e4"
+    },
+    "ggml-base.dll": {
+     "bytes": 805888,
+     "sha256": "46a06978ff9b826c16044b78cb3ab2377c13b5775f5d3be3e5566bb488dcd1cd"
+    },
+    "ggml-cpu-alderlake.dll": {
+     "bytes": 1416704,
+     "sha256": "da2eefc54e8208b18fbf762de10a22b7181242c3f9f01bb5d101c4144df4b769"
+    },
+    "ggml-cpu-cannonlake.dll": {
+     "bytes": 1612800,
+     "sha256": "18b18d72e0f0317931b2339f72b11955295d4bc4e005c2b60590c567c7b28f1e"
+    },
+    "ggml-cpu-cascadelake.dll": {
+     "bytes": 1585664,
+     "sha256": "02f602d0defd7407ff3ee8ded5b5b2a4463e5cd1772fd9ab7b6930b6afee9469"
+    },
+    "ggml-cpu-cooperlake.dll": {
+     "bytes": 1595392,
+     "sha256": "382e98315e36e0c12e2b7ce20406bbf4373f9a25491e0f89ae3bf700bb523902"
+    },
+    "ggml-cpu-haswell.dll": {
+     "bytes": 1422336,
+     "sha256": "a58641393b583aaab17eb017bebe9bdb7321765140f2dc12ac9238c907fddd50"
+    },
+    "ggml-cpu-icelake.dll": {
+     "bytes": 1592832,
+     "sha256": "d8da4ad78513fd4230ea454225c74743b854312b083c092c3edd4d328f1bbc5e"
+    },
+    "ggml-cpu-ivybridge.dll": {
+     "bytes": 1303552,
+     "sha256": "1adedbafa007dbf9aadfe28619833d04f3afa66142ad7da05be8aaf0146debd4"
+    },
+    "ggml-cpu-piledriver.dll": {
+     "bytes": 1296384,
+     "sha256": "5321e427d481cf22707f0afaced98c7a49a8391649a23fef7d300c256aec324c"
+    },
+    "ggml-cpu-sandybridge.dll": {
+     "bytes": 1292800,
+     "sha256": "b8a59f2feb8801a1b899307468ebc1a97cc608e4ad79722bc0d4b12607fabccc"
+    },
+    "ggml-cpu-sapphirerapids.dll": {
+     "bytes": 1872384,
+     "sha256": "da99a104d9a588f8482634cef30fc0b14282610e36d88fbf45660eab3761ec85"
+    },
+    "ggml-cpu-skylakex.dll": {
+     "bytes": 1606656,
+     "sha256": "51a6f9d37f6a8ecbcdc13d7e179e2585da70246725dad53716d20263b7ef0dce"
+    },
+    "ggml-cpu-sse42.dll": {
+     "bytes": 918016,
+     "sha256": "29ec76e23a4d5fdbdc94dce5fb3753e4b09a00765b9e4a910b8034c5d19d5022"
+    },
+    "ggml-cpu-x64.dll": {
+     "bytes": 910848,
+     "sha256": "8e81af24e78c8bf6b141b86b1500d29520c27e35dd0356b8ec220d13da7bd3bb"
+    },
+    "ggml-cpu-zen4.dll": {
+     "bytes": 1602560,
+     "sha256": "d5d564e183e74d21b53418bf4ac082999a6911905d851cc4f05f7347a0461db0"
+    },
+    "ggml-rpc-server.exe": {
+     "bytes": 117248,
+     "sha256": "4e0fcf63fd6dcd2f307e12fc6a786ce8f9e20940332be5fd3dbfabf4b84a90cc"
+    },
+    "ggml-rpc.dll": {
+     "bytes": 231424,
+     "sha256": "e3758bbfb912c9d690e608c467f32727645f35909444b7c3aaa595d7adbc527d"
+    },
+    "ggml.dll": {
+     "bytes": 78848,
+     "sha256": "3561ea4fbaf019b74ce29526b400aceba6db921d8e490958d46db059aee8d85e"
+    },
+    "libomp.dll": {
+     "bytes": 768000,
+     "sha256": "a12116ba72d1d6820407cf30be23da04ce79d6bb8a71a5ee71759c5a1faa6f1c"
+    },
+    "llama-batched-bench-impl.dll": {
+     "bytes": 61952,
+     "sha256": "6e12edf48e8382e33b44a7cc2e18325c0c081d723740db3f195d5c867fe2b0db"
+    },
+    "llama-batched-bench.exe": {
+     "bytes": 9216,
+     "sha256": "a9177ce5744228baff10502506c9ce76eda5b2f6319757975779c333ee12cc98"
+    },
+    "llama-bench-impl.dll": {
+     "bytes": 404480,
+     "sha256": "f41e74bc8182b736ea20bb02408a22a01b51f16a7b6dd1d7f99f368e3530e530"
+    },
+    "llama-bench.exe": {
+     "bytes": 9216,
+     "sha256": "a94444b78a2e7f252410ab8610982e4ab1be172e4376a6a137f025e269ba746c"
+    },
+    "llama-cli-impl.dll": {
+     "bytes": 3364864,
+     "sha256": "9b5bd2e2d433ddd54e75d8612bbd18d1c7f40ed13a9998ad7ffcefd5b22538de"
+    },
+    "llama-cli.exe": {
+     "bytes": 9216,
+     "sha256": "907e8d4ee1f0646a1fdbf4e87b616b25f49907e59506a8488af27ff7d86b13e0"
+    },
+    "llama-common.dll": {
+     "bytes": 8295424,
+     "sha256": "a5827062b4c94ab3d96263caec042e4a693b51c84483d59ad253c59090daf1c8"
+    },
+    "llama-completion-impl.dll": {
+     "bytes": 141824,
+     "sha256": "2efd1b1e2da01ea03cba22dbfdb8df7a6a848543a92abade7bf93269bc506be6"
+    },
+    "llama-completion.exe": {
+     "bytes": 9216,
+     "sha256": "7770eb86deb2126b075f25d095e9a903f35b7cccd32407bfae119926a5ddb16b"
+    },
+    "llama-connect.exe": {
+     "bytes": 11473920,
+     "sha256": "9f2bdd778f96971995a80add8d6b2478c156f799933337a19dbf80cdaad21b1d"
+    },
+    "llama-fit-params-impl.dll": {
+     "bytes": 43520,
+     "sha256": "323fbeb390a91596ca073e4aeaa02a4aea47bea7f0f750ba0221211d0706f7eb"
+    },
+    "llama-fit-params.exe": {
+     "bytes": 9216,
+     "sha256": "e593c9ac2e0ea3b49f4c6c36c2acd200bf537a4777833e44f2040aac8c9b788b"
+    },
+    "llama-gemma3-cli.exe": {
+     "bytes": 27136,
+     "sha256": "69930b61897c20b7e7562d7502d5db964c757cc29b2337318fc9080b70717785"
+    },
+    "llama-gguf-split.exe": {
+     "bytes": 60416,
+     "sha256": "6996118e000d6bbc55499d05b2723998450f0e2e2ccd080d43bf39b92db57e6c"
+    },
+    "llama-imatrix.exe": {
+     "bytes": 252928,
+     "sha256": "b79a261ab820d41b93d581fd77539727572d58a57ae62488280c41e428a9aa40"
+    },
+    "llama-llava-cli.exe": {
+     "bytes": 27136,
+     "sha256": "69930b61897c20b7e7562d7502d5db964c757cc29b2337318fc9080b70717785"
+    },
+    "llama-minicpmv-cli.exe": {
+     "bytes": 27136,
+     "sha256": "69930b61897c20b7e7562d7502d5db964c757cc29b2337318fc9080b70717785"
+    },
+    "llama-mtmd-cli.exe": {
+     "bytes": 98304,
+     "sha256": "9cb60d1c87b92f61d20d671401113d92fcbac9fb27e68532a2e25e0f2c1c6f7f"
+    },
+    "llama-mtmd-debug.exe": {
+     "bytes": 55808,
+     "sha256": "5b7dab5167b12cb1f5deba898d97a8f38138bfd91b25b9d7dc9b56911757f4c5"
+    },
+    "llama-perplexity-impl.dll": {
+     "bytes": 197632,
+     "sha256": "7341816edfc2459ee11260cff014c6e56d80ed1ded8e95c0e039e8bc4c626bea"
+    },
+    "llama-perplexity.exe": {
+     "bytes": 9216,
+     "sha256": "9197e3967f70af6bc969018f934f42872c93c7bfa9b1b451cb8b73bc5277141a"
+    },
+    "llama-quantize-impl.dll": {
+     "bytes": 137216,
+     "sha256": "a1059b333934bc6512d5640c2c4c6c97cc0575e8bd59464d9f9f5a61c0c8605f"
+    },
+    "llama-quantize.exe": {
+     "bytes": 9216,
+     "sha256": "3481420c203b70d51f510d09feb09b3fef761ceab63e885416066933af2de21a"
+    },
+    "llama-qwen2vl-cli.exe": {
+     "bytes": 27136,
+     "sha256": "69930b61897c20b7e7562d7502d5db964c757cc29b2337318fc9080b70717785"
+    },
+    "llama-results.exe": {
+     "bytes": 46592,
+     "sha256": "af3ce62acff7c551fe7ee62dd29f085356b900a9740fc8383b2fe87c2dd9ea14"
+    },
+    "llama-server-impl.dll": {
+     "bytes": 9776640,
+     "sha256": "c91d63450e41ec2656b49438f015512a4d98a49a272942a17f9c64775882b961"
+    },
+    "llama-server.exe": {
+     "bytes": 9216,
+     "sha256": "776a739fe5de6fac27ae4506f3cb67d16a287c5ceb6a8b2d23a3d40848a85380"
+    },
+    "llama-tokenize.exe": {
+     "bytes": 58880,
+     "sha256": "debd216da9ce637e1216481119a118b3d8b3829fed2b2b1d274ca3c794a58fdd"
+    },
+    "llama-tts.exe": {
+     "bytes": 42496,
+     "sha256": "80376c881423cd6e9d5cfa68a369a560a0cc2cb1f2cba57b9c403006939947fb"
+    },
+    "llama.dll": {
+     "bytes": 3692032,
+     "sha256": "723cb8ae3e48549547d87f7cd226531d0c8a4893d5b117bc05b929a2532cb347"
+    },
+    "llama.exe": {
+     "bytes": 104960,
+     "sha256": "3b526efa0948fd600201ea2506af20e73ab9e95c3b3067d7288239ca36881731"
+    },
+    "mtmd.dll": {
+     "bytes": 1995776,
+     "sha256": "ccdecd302f1328bdb6c2552bf1deaa6925c90b9c8cdad3d53c924924652a592e"
+    }
+   },
+   "sha256": "776a739fe5de6fac27ae4506f3cb67d16a287c5ceb6a8b2d23a3d40848a85380"
+  },
+  "darwin-arm64": {
+   "archive": "llama-b11938-bin-macos-arm64.tar.gz",
+   "archive_sha256": "b1ed33aacd0927eaa69644e6b15e3206115f7f80dfc7501de86df89dab853e9f",
+   "archive_bytes": 16341137,
+   "exe": "llama-server",
+   "files": {
+    "LICENSE": {
+     "bytes": 1078,
+     "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    "ggml-metal-tuning": {
+     "bytes": 87696,
+     "sha256": "72162323fcee7d7889190899ca69ddbc1423c29e5f1f502e9bfd6dad003d8317"
+    },
+    "ggml-rpc-server": {
+     "bytes": 133136,
+     "sha256": "e5e80be949739e616bd11ec7bee841e80d22c11af0e5945bf987cff6e8e6daff"
+    },
+    "libggml-base.0.27.0.dylib": {
+     "bytes": 751896,
+     "sha256": "c57cc938ece908deaa90d017efeaf28e903317923aec5e6cece397d84ea439cf"
+    },
+    "libggml-blas.0.27.0.dylib": {
+     "bytes": 58776,
+     "sha256": "12aefdc8dd4873d69554dc85a0dd09fffef9828e1fc9ecf6b48913ef2106b33a"
+    },
+    "libggml-cpu.0.27.0.dylib": {
+     "bytes": 941200,
+     "sha256": "d3e86b1cfdedbabe63a37e1e216ab12a0292d67e93447684111220c530281023"
+    },
+    "libggml-metal.0.27.0.dylib": {
+     "bytes": 5620936,
+     "sha256": "f4e31c355e06c1a6d6489c953145cc1572eef7ac9627d16201d865fe5293b35c"
+    },
+    "libggml-rpc.0.27.0.dylib": {
+     "bytes": 242800,
+     "sha256": "456460720893a4d3ed484c421205695dcbf004f1afdb8376ae46246f0fa2f5a1"
+    },
+    "libggml.0.27.0.dylib": {
+     "bytes": 60016,
+     "sha256": "a97bc40525aea78834fdf28197b5b21f149b6d5ac2d3b615b95b86f775a69477"
+    },
+    "libllama-batched-bench-impl.dylib": {
+     "bytes": 56576,
+     "sha256": "cd5644483ab2a6a375b4f765db8238c7b92e219fdf222fa49f089503a1da1a15"
+    },
+    "libllama-bench-impl.dylib": {
+     "bytes": 323016,
+     "sha256": "ebd8d38f45b7da9733275a501e8b42344ea9a087b07832d607501103f2e4b1c6"
+    },
+    "libllama-cli-impl.dylib": {
+     "bytes": 255144,
+     "sha256": "63e5cf372ca43215a7923d864150f0fdcc5a41538f029c0ef3afc5fd71d3213d"
+    },
+    "libllama-common.0.7.0.dylib": {
+     "bytes": 7980696,
+     "sha256": "990a3c7e1e45b115603b48d9d9bcbcd955c452a46beb9d2d4f187dfc81b73531"
+    },
+    "libllama-completion-impl.dylib": {
+     "bytes": 121680,
+     "sha256": "990150fab280bc962cb669d816fb8e6779e866a00d377ee74595f92a781133a8"
+    },
+    "libllama-fit-params-impl.dylib": {
+     "bytes": 55264,
+     "sha256": "2758c5bdc9c035a52c38ca8672a44d42717c200d5200e8dae5f35913efd5804b"
+    },
+    "libllama-perplexity-impl.dylib": {
+     "bytes": 156384,
+     "sha256": "13ab89af8b731e30be0baf260685c0bc37ab41583abf7f7eb01044a62e301986"
+    },
+    "libllama-quantize-impl.dylib": {
+     "bytes": 96496,
+     "sha256": "582dadbf515289d7a5dd5aa27be5fdcbe58cad0a2eb4eaa72a15087ad9d26864"
+    },
+    "libllama-server-impl.dylib": {
+     "bytes": 9615832,
+     "sha256": "c5f4dcc2516ef804fc589fcdf51305fa2cdd83ed86cbe9f4fe341c1d946559d4"
+    },
+    "libllama.0.7.0.dylib": {
+     "bytes": 3652192,
+     "sha256": "5e37bcfb3b6dffb291392d35d16eab6e4e848cd00d4d83e07024a8227f57e65f"
+    },
+    "libmtmd.0.7.0.dylib": {
+     "bytes": 1520208,
+     "sha256": "601363536011b465c1c2570fc0e38e1587bd33ce132a56e0ef8cae2728d36847"
+    },
+    "llama": {
+     "bytes": 107320,
+     "sha256": "776ad857a386619d82177db584051737094298ef7ed9a18a678e8a6978ce684b"
+    },
+    "llama-batched-bench": {
+     "bytes": 33488,
+     "sha256": "64f9f09bd2bf1f9f2e9748e36a4dc802704ce8c3fa20eddfc314c6bebd3006a0"
+    },
+    "llama-bench": {
+     "bytes": 33464,
+     "sha256": "8e381bc0e4463985ccf1425e3628566664992230d545d4db0482f58482a4fb45"
+    },
+    "llama-cli": {
+     "bytes": 49960,
+     "sha256": "67b08224c590a337389e8b46a8d6e49902b959be9922e572ffd81645bac1b084"
+    },
+    "llama-completion": {
+     "bytes": 33472,
+     "sha256": "2b14c5f6bf13aec0118c0917797178d1300d85f8b8321a301fc8fc206c38a934"
+    },
+    "llama-connect": {
+     "bytes": 8251536,
+     "sha256": "a2e54e1198276037f05882b5142641cd4c55c7fbdd748fcb10a4a8109c723d59"
+    },
+    "llama-cvector-generator": {
+     "bytes": 102296,
+     "sha256": "9426a83c71aff7e8df7164be85a8f04fb335a33b69ebcd73ecc396a1d63701b6"
+    },
+    "llama-export-lora": {
+     "bytes": 99856,
+     "sha256": "07d1f0b9c44a04faa753b965a714b2c08389a24daa362c2f2e12830ffc509be0"
+    },
+    "llama-fit-params": {
+     "bytes": 33472,
+     "sha256": "ceb4c943e71f731a60cbdb351928999822cd973b261b160c89e245b16fe8ba61"
+    },
+    "llama-gemma3-cli": {
+     "bytes": 35344,
+     "sha256": "f7f9126b0881654bdb4c9ceab6de40f42e31998fa0c775505b5979ef7e8e567e"
+    },
+    "llama-gguf-split": {
+     "bytes": 59952,
+     "sha256": "2d3a3c644c370a976a36011b5bc49335306fa84bf3194732bfaa053e547b2d7b"
+    },
+    "llama-imatrix": {
+     "bytes": 206320,
+     "sha256": "291bb14c1641c5be0c86e0bbb798ee8c02631712a0844fdcee34d51d88949da5"
+    },
+    "llama-llava-cli": {
+     "bytes": 35344,
+     "sha256": "9a77293c34faa94ae6955f9b1da3dca9fa55cf09fcd0fff87c96f5ec44b9d547"
+    },
+    "llama-minicpmv-cli": {
+     "bytes": 35344,
+     "sha256": "4baffe08bb410686ee032b1b2ff9a948bbde3fdc014dddf750f36978e3b40589"
+    },
+    "llama-mtmd-cli": {
+     "bytes": 103520,
+     "sha256": "28820831d473f368f046f49207b2c1c5380a14a708cf8ae4612a504099ba0777"
+    },
+    "llama-mtmd-debug": {
+     "bytes": 75824,
+     "sha256": "79665a319aeb0f6496144fe08d2afadaf61e7e3ceac8579f75ed0208378d6cfd"
+    },
+    "llama-perplexity": {
+     "bytes": 33472,
+     "sha256": "2efff38c7c52e14a9d9ba0d34319a572b514c79d1fb5f7804fbf87ae061980c4"
+    },
+    "llama-quantize": {
+     "bytes": 33472,
+     "sha256": "88a670a6136af2b1877305ece7e92fe470078a2425986b68ea25f886ddc9685b"
+    },
+    "llama-qwen2vl-cli": {
+     "bytes": 35344,
+     "sha256": "9be4a36b2587c0216009b1ed59ac79b1e4dd2e885f326e8aeffac8aa37761d31"
+    },
+    "llama-results": {
+     "bytes": 58912,
+     "sha256": "59acc67e946061d68dc53faaec32e17b928d554c59e81032bfe84018fd64900d"
+    },
+    "llama-server": {
+     "bytes": 49984,
+     "sha256": "981b460a278e9a0c880cef32d6fab42785a119084456b16845304cf38c32cf69"
+    },
+    "llama-tokenize": {
+     "bytes": 58736,
+     "sha256": "834c64aa9473427c74a6589fed327b774f069a1599ac004c5f69b3d208b1d1cf"
+    },
+    "llama-tts": {
+     "bytes": 57608,
+     "sha256": "183f98d59ed09f8f814ba9a4d137cebe114d12041ca0bb11fc401d2969410239"
+    }
+   },
+   "sha256": "981b460a278e9a0c880cef32d6fab42785a119084456b16845304cf38c32cf69"
+  }
+ }
+}

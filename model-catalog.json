@@ -1,0 +1,503 @@
+{
+  "plamo-31b-mlx4": {
+    "name": "PLaMo 3 Translate 31B MLX-4bit",
+    "repo": "pfnet/plamo-3-translate-31b-MLX-4bit",
+    "revision": "e558c8fba45054df70141bc72295024de9b57a44",
+    "backend": "mlx",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "manifest": "model-manifest.json",
+    "suggested_folder": "PLaMo-Translate-31B/model",
+    "download_bytes": 18660797459,
+    "weight_bytes": 18656969144,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": 25769803776,
+    "context_token_cap": 4096,
+    "load_enabled": true,
+    "validation_status": "short_sample_tested",
+    "execution_confirmed_languages": [
+      "en",
+      "zh-hans",
+      "zh-hant",
+      "ko",
+      "ar",
+      "az",
+      "be",
+      "bg",
+      "bn",
+      "ca",
+      "ceb",
+      "de",
+      "es",
+      "et",
+      "eu",
+      "fa",
+      "fr",
+      "gu",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "hy",
+      "id",
+      "it",
+      "jv",
+      "ka",
+      "kk",
+      "km",
+      "lt",
+      "lv",
+      "ml",
+      "mr",
+      "ms",
+      "my",
+      "ne",
+      "nl",
+      "pa",
+      "pl",
+      "ru",
+      "si",
+      "sk",
+      "sl",
+      "sr",
+      "sw",
+      "ta",
+      "te",
+      "th",
+      "tl",
+      "ur",
+      "uz",
+      "vi"
+    ],
+    "quality_notes": {
+      "tl": {
+        "ja": "今回の短文では「晴れ」が逆翻訳で「早朝」に変わりました。",
+        "en": "In this sample, “sunny” became “early morning” in the back-translation."
+      },
+      "uz": {
+        "ja": "今回の短文では原文にない「昼間」が加わりました。",
+        "en": "In this sample, “during the day” was added although it was absent from the original."
+      },
+      "te": {
+        "ja": "今回の逆翻訳では「行きます」が「行っています」に変わりました。",
+        "en": "In this sample, the back-translation changed “will go / go” to “am going”."
+      },
+      "th": {
+        "ja": "今回の逆翻訳では、原文にない因果関係「晴れているから」が加わりました。",
+        "en": "In this sample, the back-translation added a causal link: “because it is sunny”."
+      }
+    },
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-31b-MLX-4bit/blob/e558c8fba45054df70141bc72295024de9b57a44/LICENSE/ja",
+    "execution_evidence": "verification/full52-plamo-31b-mlx4-results.json",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-31b-MLX-4bit/blob/e558c8fba45054df70141bc72295024de9b57a44/LICENSE/en",
+    "size_basis": "downloaded_and_hashed",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": "Apple Silicon Mac / 32 GiB",
+    "max_context_tokens": 32768,
+    "context_measured": [],
+    "execution_confirmed_pairs": [],
+    "hosts": [
+      [
+        "darwin",
+        "arm64"
+      ]
+    ]
+  },
+  "plamo-2b-mlx4": {
+    "name": "PLaMo 3 Translate 2B MLX-4bit",
+    "repo": "pfnet/plamo-3-translate-2b-MLX-4bit",
+    "revision": "b715145bec63f0dfe877699adbef182439b2047a",
+    "backend": "mlx",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "manifest": "manifests/plamo-2b-mlx4.json",
+    "suggested_folder": "PLaMo-Translate-2B/model",
+    "download_bytes": 2414713442,
+    "weight_bytes": 2410973952,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": 6442450944,
+    "context_token_cap": 4096,
+    "load_enabled": true,
+    "validation_status": "short_sample_tested",
+    "execution_confirmed_languages": [
+      "en",
+      "zh-hans",
+      "zh-hant",
+      "ko",
+      "ar",
+      "az",
+      "be",
+      "bg",
+      "bn",
+      "ca",
+      "ceb",
+      "de",
+      "es",
+      "et",
+      "eu",
+      "fa",
+      "fr",
+      "gu",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "hy",
+      "id",
+      "it",
+      "jv",
+      "ka",
+      "kk",
+      "km",
+      "lt",
+      "lv",
+      "ml",
+      "mr",
+      "ms",
+      "my",
+      "ne",
+      "nl",
+      "pa",
+      "pl",
+      "ru",
+      "si",
+      "sk",
+      "sl",
+      "sr",
+      "sw",
+      "ta",
+      "te",
+      "th",
+      "tl",
+      "ur",
+      "uz",
+      "vi"
+    ],
+    "quality_notes": {
+      "te": {
+        "ja": "今回の短文では、逆翻訳で「行きます」が「行っています」に変わりました。時制を確認してください。",
+        "en": "In this short sample, the back-translation changed the action to an ongoing one. Check the tense."
+      },
+      "tl": {
+        "ja": "今回の訳文「Araw ng araw ngayon.」は表現の自然さを再確認する必要があります。逆翻訳の一致だけで正確と判断しないでください。",
+        "en": "The wording “Araw ng araw ngayon.” in this sample needs a fluency review. Matching back-translation alone does not prove accuracy."
+      }
+    },
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-2b-MLX-4bit/blob/b715145bec63f0dfe877699adbef182439b2047a/LICENSE/ja",
+    "execution_evidence": "verification/full52-plamo-2b-mlx4-results.json",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-2b-MLX-4bit/blob/b715145bec63f0dfe877699adbef182439b2047a/LICENSE/en",
+    "size_basis": "downloaded_and_hashed",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": "Apple Silicon Mac / 32 GiB",
+    "max_context_tokens": 32768,
+    "context_measured": [
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "context_evidence": "verification/context-plamo-2b-mlx4.json",
+    "execution_confirmed_pairs": [
+      [
+        "fr",
+        "en"
+      ],
+      [
+        "en",
+        "fr"
+      ],
+      [
+        "de",
+        "fr"
+      ],
+      [
+        "fr",
+        "de"
+      ],
+      [
+        "ko",
+        "en"
+      ],
+      [
+        "en",
+        "ko"
+      ]
+    ],
+    "pair_evidence": "verification/pairs-plamo-2b-mlx4.json",
+    "hosts": [
+      [
+        "darwin",
+        "arm64"
+      ]
+    ]
+  },
+  "plamo-0.8b-mlx4": {
+    "name": "PLaMo 3 Translate 0.8B MLX-4bit",
+    "repo": "pfnet/plamo-3-translate-0.8b-MLX-4bit",
+    "revision": "1f9227818908350380fa576794c01f5fbcbf8569",
+    "backend": "mlx",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "download_bytes": 980672097,
+    "weight_bytes": 975810552,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": null,
+    "context_token_cap": 4096,
+    "load_enabled": false,
+    "validation_status": "not_obtained",
+    "execution_confirmed_languages": [],
+    "quality_notes": {},
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-0.8b-MLX-4bit/blob/1f9227818908350380fa576794c01f5fbcbf8569/LICENSE/ja",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-0.8b-MLX-4bit/blob/1f9227818908350380fa576794c01f5fbcbf8569/LICENSE/en",
+    "size_basis": "official_listing",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": null,
+    "pending_reason": "未取得・未検証。この版では読み込めません。",
+    "max_context_tokens": 32768,
+    "context_measured": [],
+    "execution_confirmed_pairs": [],
+    "hosts": [
+      [
+        "darwin",
+        "arm64"
+      ]
+    ]
+  },
+  "plamo-8b-mlx4": {
+    "name": "PLaMo 3 Translate 8B MLX-4bit",
+    "repo": "pfnet/plamo-3-translate-8b-MLX-4bit",
+    "revision": "3623015236aa51fe290f02cff01135dfcadb9816",
+    "backend": "mlx",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "download_bytes": 6071028728,
+    "weight_bytes": 6066104664,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": null,
+    "context_token_cap": 4096,
+    "load_enabled": false,
+    "validation_status": "isolated_mlx_tested",
+    "execution_confirmed_languages": [],
+    "quality_notes": {},
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-8b-MLX-4bit/blob/3623015236aa51fe290f02cff01135dfcadb9816/LICENSE/ja",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-8b-MLX-4bit/blob/3623015236aa51fe290f02cff01135dfcadb9816/LICENSE/en",
+    "size_basis": "downloaded_and_hashed",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": "Apple Silicon Mac / 32 GiB (independent MLX short samples; not integrated in this app)",
+    "pending_reason": "公式MLXの独立した短文試験は確認済み。このアプリへの組込みとWindowsは未確認のため、この版では読み込めません。",
+    "max_context_tokens": 32768,
+    "context_measured": [],
+    "execution_confirmed_pairs": [],
+    "hosts": [
+      [
+        "darwin",
+        "arm64"
+      ]
+    ],
+    "execution_evidence": "verification/isolated-8b-mlx-summary.json",
+    "independent_test_only": true
+  },
+  "plamo-0.8b-gguf-q4km": {
+    "name": "PLaMo 3 Translate 0.8B GGUF Q4_K_M",
+    "repo": "pfnet/plamo-3-translate-0.8b-GGUF",
+    "revision": "1cf96ae02133958a20074bfdfab76517bb737d00",
+    "backend": "llama.cpp",
+    "platform": "gguf",
+    "architecture": "x64/arm64",
+    "download_bytes": 573126848,
+    "weight_bytes": 573126848,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": null,
+    "context_token_cap": 4096,
+    "load_enabled": true,
+    "validation_status": "mac_cpu_tested",
+    "execution_confirmed_languages": [
+      "en",
+      "fr"
+    ],
+    "quality_notes": {},
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-0.8b-GGUF/blob/1cf96ae02133958a20074bfdfab76517bb737d00/LICENSE/ja",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-0.8b-GGUF/blob/1cf96ae02133958a20074bfdfab76517bb737d00/LICENSE/en",
+    "size_basis": "downloaded_and_hashed",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": "Apple Silicon Mac (CPU only, llama.cpp b11938); Windows not yet tested",
+    "pending_reason": null,
+    "max_context_tokens": 32768,
+    "context_measured": [
+      4096
+    ],
+    "execution_confirmed_pairs": [],
+    "manifest": "manifests/plamo-0.8b-gguf-q4km.json",
+    "hosts": [
+      [
+        "win32",
+        "x64"
+      ],
+      [
+        "darwin",
+        "arm64"
+      ]
+    ],
+    "execution_evidence": "verification/gguf-mac-cpu.json",
+    "suggested_folder": "PLaMo-Translate-GGUF/0.8b"
+  },
+  "plamo-2b-gguf-q4km": {
+    "name": "PLaMo 3 Translate 2B GGUF Q4_K_M",
+    "repo": "pfnet/plamo-3-translate-2b-GGUF",
+    "revision": "4f672106b847200bfdc0f6af6c321cd94eba1aed",
+    "backend": "llama.cpp",
+    "platform": "gguf",
+    "architecture": "x64/arm64",
+    "download_bytes": 1807203040,
+    "weight_bytes": 1807203040,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": null,
+    "context_token_cap": 4096,
+    "load_enabled": true,
+    "validation_status": "mac_windows_cpu_tested",
+    "execution_confirmed_languages": [
+      "en",
+      "fr"
+    ],
+    "quality_notes": {},
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-2b-GGUF/blob/4f672106b847200bfdc0f6af6c321cd94eba1aed/LICENSE/ja",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-2b-GGUF/blob/4f672106b847200bfdc0f6af6c321cd94eba1aed/LICENSE/en",
+    "size_basis": "downloaded_and_hashed",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": "Apple Silicon Mac; Windows 11 x64 / Ryzen 5 8645HS / 16 GB (CPU only, llama.cpp b11938, context 4096; Japanese/English short samples and 3-paragraph document)",
+    "pending_reason": null,
+    "max_context_tokens": 32768,
+    "context_measured": [
+      4096
+    ],
+    "execution_confirmed_pairs": [],
+    "manifest": "manifests/plamo-2b-gguf-q4km.json",
+    "hosts": [
+      [
+        "win32",
+        "x64"
+      ],
+      [
+        "darwin",
+        "arm64"
+      ]
+    ],
+    "execution_evidence": "verification/gguf-mac-cpu.json",
+    "suggested_folder": "PLaMo-Translate-GGUF/2b",
+    "windows_execution_evidence": "verification/gguf-windows-cpu-2b.json"
+  },
+  "plamo-8b-gguf-q4km": {
+    "name": "PLaMo 3 Translate 8B GGUF Q4_K_M",
+    "repo": "pfnet/plamo-3-translate-8b-GGUF",
+    "revision": "c67efa4eefdc14d3c97bf8f4f35ee58e2ecd2f42",
+    "backend": "llama.cpp",
+    "platform": "gguf",
+    "architecture": "x64/arm64",
+    "download_bytes": 5280445728,
+    "weight_bytes": 5280445728,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": null,
+    "context_token_cap": 4096,
+    "load_enabled": false,
+    "validation_status": "not_obtained",
+    "execution_confirmed_languages": [],
+    "quality_notes": {},
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-8b-GGUF/blob/c67efa4eefdc14d3c97bf8f4f35ee58e2ecd2f42/LICENSE/ja",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-8b-GGUF/blob/c67efa4eefdc14d3c97bf8f4f35ee58e2ecd2f42/LICENSE/en",
+    "size_basis": "official_listing",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": null,
+    "pending_reason": "Windows x64でのみ、自己取得した固定版GGUFを未検証の試用として指定できます。実機動作・必要メモリ・速度は未確認です。",
+    "max_context_tokens": 32768,
+    "context_measured": [],
+    "execution_confirmed_pairs": [],
+    "manifest": "manifests/plamo-8b-gguf-q4km.json",
+    "hosts": [
+      [
+        "win32",
+        "x64"
+      ],
+      [
+        "darwin",
+        "arm64"
+      ]
+    ],
+    "experimental_hosts": [
+      [
+        "win32",
+        "x64"
+      ]
+    ],
+    "external_file_name": "plamo-3-translate-8b-Q4_K_M.gguf",
+    "external_source_url": "https://huggingface.co/pfnet/plamo-3-translate-8b-GGUF/blob/c67efa4eefdc14d3c97bf8f4f35ee58e2ecd2f42/plamo-3-translate-8b-Q4_K_M.gguf"
+  },
+  "plamo-31b-gguf-q4km": {
+    "name": "PLaMo 3 Translate 31B GGUF Q4_K_M",
+    "repo": "pfnet/plamo-3-translate-31b-GGUF",
+    "revision": "8b797b290907c84403877cb9d03150929f10b467",
+    "backend": "llama.cpp",
+    "platform": "gguf",
+    "architecture": "x64/arm64",
+    "download_bytes": 19526593952,
+    "weight_bytes": 19526593952,
+    "required_memory_bytes": null,
+    "allocation_cap_bytes": null,
+    "context_token_cap": 4096,
+    "load_enabled": false,
+    "validation_status": "not_obtained",
+    "execution_confirmed_languages": [],
+    "quality_notes": {},
+    "license_url": "https://huggingface.co/pfnet/plamo-3-translate-31b-GGUF/blob/8b797b290907c84403877cb9d03150929f10b467/LICENSE/ja",
+    "license_url_en": "https://huggingface.co/pfnet/plamo-3-translate-31b-GGUF/blob/8b797b290907c84403877cb9d03150929f10b467/LICENSE/en",
+    "size_basis": "official_listing",
+    "download_hosts": [
+      "huggingface.co",
+      "cdn-lfs.huggingface.co など（Hugging Faceの配信先）"
+    ],
+    "tested_on": null,
+    "pending_reason": "Windows x64でのみ、自己取得した固定版GGUFを未検証の試用として指定できます。実機動作・必要メモリ・速度は未確認です。",
+    "max_context_tokens": 32768,
+    "context_measured": [],
+    "execution_confirmed_pairs": [],
+    "manifest": "manifests/plamo-31b-gguf-q4km.json",
+    "hosts": [
+      [
+        "win32",
+        "x64"
+      ],
+      [
+        "darwin",
+        "arm64"
+      ]
+    ],
+    "experimental_hosts": [
+      [
+        "win32",
+        "x64"
+      ]
+    ],
+    "external_file_name": "plamo-3-translate-31b-Q4_K_M.gguf",
+    "external_source_url": "https://huggingface.co/pfnet/plamo-3-translate-31b-GGUF/blob/8b797b290907c84403877cb9d03150929f10b467/plamo-3-translate-31b-Q4_K_M.gguf"
+  }
+}

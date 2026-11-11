@@ -1,0 +1,13 @@
+{
+ "repo": "pfnet/plamo-3-translate-8b-GGUF",
+ "revision": "c67efa4eefdc14d3c97bf8f4f35ee58e2ecd2f42",
+ "verify_weight_hashes": true,
+ "files": [
+  {
+   "name": "plamo-3-translate-8b-Q4_K_M.gguf",
+   "bytes": 5280445728,
+   "sha256": "94e5d3f91b421f7c8900ddaac27b11a19f7441426c954bbb25a2fd60a1640187"
+  }
+ ],
+ "source": "Hugging Face API (LFS sha256) for the pinned revision; file not yet downloaded when this manifest was written"
+}

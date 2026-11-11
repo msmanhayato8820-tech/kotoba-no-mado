@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-11",
+  "machine": "Apple Silicon Mac, 32 GiB (development machine)",
+  "mode": "llama.cpp b11938, CPU only (-ngl 0) to approximate a laptop without a graphics card",
+  "runtime": {
+    "release": "b11938",
+    "archive_sha256": "b1ed33aacd0927eaa69644e6b15e3206115f7f80dfc7501de86df89dab853e9f"
+  },
+  "method": "worker_gguf.py driven directly with self-written public short samples; one run each. Returned text is execution evidence, not a quality judgement.",
+  "results": {
+    "plamo-0.8b-gguf-q4km": {
+      "sha256": "70891ec70dc7ab4205745a38307867c2881b99239f20327927633abfe4bc9ec6",
+      "ready_seconds": 1.6,
+      "peak_server_rss_mb": 1137,
+      "samples": {
+        "ja>en": "It's sunny today. I'm going to the park with my family.",
+        "en>ja": "今日は晴れている。家族と一緒に公園に行く。",
+        "fr>en": "It's sunny today. I'm going to the park with my family.",
+        "auto>ja": "図書館は毎週月曜日は休館です。",
+        "ja>en with glossary 図書館=community library": "The community library in front of the station is closed on Mondays."
+      },
+      "seconds_per_sample": "0.10-0.20",
+      "cancel": "stopped mid-generation",
+      "leftover_processes": 0
+    },
+    "plamo-2b-gguf-q4km": {
+      "sha256": "1ffd9073afcc70e35ccc942428aa2b73d7aa2b9ea779bf504b775369e0276c13",
+      "ready_seconds": 2.1,
+      "peak_server_rss_mb": 3479,
+      "samples": {
+        "ja>en": "It's sunny today. I'm going to the park with my family.",
+        "en>ja": "今日は晴れだ。家族で公園に行く。",
+        "fr>en": "It's nice weather today. I'm going to the park with my family.",
+        "auto>ja": "図書館は毎週月曜日は休館です。",
+        "ja>en with glossary 図書館=community library": "The community library in front of the station is closed on Mondays."
+      },
+      "seconds_per_sample": "0.34-0.71",
+      "cancel": "stopped 1.25 s after the request",
+      "leftover_processes": 0
+    }
+  },
+  "limits": "Mac CPU speed is not Windows laptop speed. Windows has not been tested. No long documents, no 8B/31B GGUF."
+}

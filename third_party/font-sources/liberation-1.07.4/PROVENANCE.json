@@ -1,0 +1,116 @@
+{
+  "checked_at_utc": "2026-11-11T13:02:16.451377+00:00",
+  "component": "Liberation Sans 1.07.4 as distributed with PDF.js 6.4.299",
+  "license": "GNU General Public License v2 with the Liberation font exception; not SIL OFL",
+  "archive": {
+    "file": "fonts-liberation_1.07.4.orig.tar.gz",
+    "url": "https://archive.debian.org/debian/pool/main/f/fonts-liberation/fonts-liberation_1.07.4.orig.tar.gz",
+    "bytes": 2937949,
+    "sha256": "ad98b7498dc2992f7f0868f79b65ce4a720a3acdb63ab3f1f1cb6881117a5406",
+    "unmodified": true,
+    "contains": "Complete upstream original source tarball, not the Debian packaging overlay",
+    "regular_files": 26,
+    "source_member_sha256": {
+      "liberation-fonts-1.07.4/TODO": "5a20cf460e03a3ac075587c19ef1aff248ead47e53dc7cc301e59f5503af96b6",
+      "liberation-fonts-1.07.4/README": "0f9c5beacf180de8cac8e04bc404d1db2f9ec5bd95e497f5162c98405cc2a99b",
+      "liberation-fonts-1.07.4/License.txt": "c40dd6adebad817defd68c7edad151d9c13d2ac3b4e1790ce2b727b024438b6d",
+      "liberation-fonts-1.07.4/COPYING": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+      "liberation-fonts-1.07.4/ChangeLog": "9f6cb61a455f1d66aa649a07eac07b4cbce45d8a95c1a8f5e1c292b9ca313c9b",
+      "liberation-fonts-1.07.4/AUTHORS": "0f056151c210fa1acc8dd8cf1ae3febbba19339322dcd9154c01a5991c001d28",
+      "liberation-fonts-1.07.4/Makefile": "78f5441712f066d30a9bd525515cd40f0e956616133b89763c3a4156dc5e6af6",
+      "liberation-fonts-1.07.4/scripts/ttf2sfd.pe": "ac63c7445ea7e9a0f8312ed4f027e71a31af021380beb07829567053dc65b731",
+      "liberation-fonts-1.07.4/scripts/sfd2ttf.pe": "cad5e8e6ef87a3a80271ede667f07d901aa23cc760ea30a8b8dc46712aac9aaf",
+      "liberation-fonts-1.07.4/scripts/fontexport.pe": "cc3d3bf735b45aa5f1fdd983de140a7d54c4508281b19fc589afb5d9446f7ad5",
+      "liberation-fonts-1.07.4/src/LiberationSansNarrow-BoldItalic.sfd": "d0ac00a0e21d97cd85f517b3860168018fb52fe5adabce54600982594348391d",
+      "liberation-fonts-1.07.4/src/LiberationSansNarrow-Italic.sfd": "e3ac02c9f9d5839ee882080c791430b6ae5d15474123fc249d73d94f4ec21c9c",
+      "liberation-fonts-1.07.4/src/LiberationSansNarrow-Bold.sfd": "7655fab62a524b55ef4fbd074418cb912cd0e8eb7a3a887d7a9e98c54b76b813",
+      "liberation-fonts-1.07.4/src/LiberationSansNarrow-Regular.sfd": "bf50c1056c6dbafcccd83a84b1a51614b306e4969e99e5f200f48aaf5f4533cf",
+      "liberation-fonts-1.07.4/src/LiberationSerif-BoldItalic.sfd": "e4bb3f8f96fc889fff1f1e1ef8d273b5d922b790e3531d257837154cacf1e366",
+      "liberation-fonts-1.07.4/src/LiberationSerif-Italic.sfd": "74b9ed33343667cd5a92a688e18b78bd8eef0ae675bc49062f924d2dbe8d3cf4",
+      "liberation-fonts-1.07.4/src/LiberationSerif-Bold.sfd": "9ddd16be9aeb3bb5dfc76a7d2f7bcb48bc3ba1af7f1bcde470f435be07d45548",
+      "liberation-fonts-1.07.4/src/LiberationSerif-Regular.sfd": "35c76a3b149abd115d812d6d2564981e36b4c379ca5c0189e9816d35db237e9c",
+      "liberation-fonts-1.07.4/src/LiberationSans-BoldItalic.sfd": "3d547dc11bd35cfc8a59f79911844e3538393e2d169820eeae68fa631498a749",
+      "liberation-fonts-1.07.4/src/LiberationSans-Italic.sfd": "ad9034d03d1c1c4e764b7e131891486e31a6c2d6590a3021e8cfa6f967995231",
+      "liberation-fonts-1.07.4/src/LiberationSans-Bold.sfd": "433c768b831c1e34d4e0292dc2fd069cb8a2636ca3ca4ffe47681a32f7fdc2c6",
+      "liberation-fonts-1.07.4/src/LiberationSans-Regular.sfd": "27b216a54fb8f46b902f69c4310ac8d4de28bc1b2fb794bc3e7cd93da2492320",
+      "liberation-fonts-1.07.4/src/LiberationMono-BoldItalic.sfd": "c37f4398bf848d4ba1a7e814031d481ce695ebbda3d326a56fe77255bb9c8f8c",
+      "liberation-fonts-1.07.4/src/LiberationMono-Italic.sfd": "f8117b726944c789d108578845f7f2ff28a3d9da1937628eda236cf811c59811",
+      "liberation-fonts-1.07.4/src/LiberationMono-Bold.sfd": "989730194b23d158f796ca0c03102388835f8e7a9b6344c384af899c7e10b230",
+      "liberation-fonts-1.07.4/src/LiberationMono-Regular.sfd": "f32b7f13fd0e8a1303ee54103bfe1a44ad5f056cd7e3077cbfeddfeb558b5a68"
+    }
+  },
+  "debian_descriptor": {
+    "file": "fonts-liberation_1.07.4-11.dsc",
+    "url": "https://archive.debian.org/debian/pool/main/f/fonts-liberation/fonts-liberation_1.07.4-11.dsc",
+    "sha256": "c9cb6abc8b8ab1887d78f5fc1aef1fc06a220efbfa3424ca7e8bc379242654ba",
+    "archive_size_and_sha256_match": true,
+    "pgp_signature_verified": false,
+    "note": "The descriptor is retained as checksum evidence. The Debian packaging overlay it lists is not bundled or used."
+  },
+  "upstream_source_commit": "1b25642191bb57c05d128f6a20d9567e3079c2b8",
+  "pdfjs_readme_url": "https://raw.githubusercontent.com/mozilla/pdf.js/v6.4.299/external/standard_fonts/README.md",
+  "pdfjs_readme_sha256": "f21d2a0f65f7dd53bbe42ca51b40c4331f566fe91a71e689682c1b762889c47e",
+  "fonts": [
+    {
+      "font": "LiberationSans-Regular",
+      "bundled_ttf": "ui/vendor/pdfjs/standard_fonts/LiberationSans-Regular.ttf",
+      "ttf_bytes": 139512,
+      "ttf_sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f",
+      "pdfjs_reference_url": "https://raw.githubusercontent.com/mozilla/pdf.js/v6.4.299/external/standard_fonts/LiberationSans-Regular.ttf",
+      "pdfjs_byte_match": true,
+      "archive_sfd": "liberation-fonts-1.07.4/src/LiberationSans-Regular.sfd",
+      "sfd_sha256": "27b216a54fb8f46b902f69c4310ac8d4de28bc1b2fb794bc3e7cd93da2492320",
+      "upstream_source_url": "https://raw.githubusercontent.com/liberationfonts/liberation-1.7-fonts/1b25642191bb57c05d128f6a20d9567e3079c2b8/src/LiberationSans-Regular.sfd",
+      "upstream_sfd_byte_match": true
+    },
+    {
+      "font": "LiberationSans-Bold",
+      "bundled_ttf": "ui/vendor/pdfjs/standard_fonts/LiberationSans-Bold.ttf",
+      "ttf_bytes": 137052,
+      "ttf_sha256": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc",
+      "pdfjs_reference_url": "https://raw.githubusercontent.com/mozilla/pdf.js/v6.4.299/external/standard_fonts/LiberationSans-Bold.ttf",
+      "pdfjs_byte_match": true,
+      "archive_sfd": "liberation-fonts-1.07.4/src/LiberationSans-Bold.sfd",
+      "sfd_sha256": "433c768b831c1e34d4e0292dc2fd069cb8a2636ca3ca4ffe47681a32f7fdc2c6",
+      "upstream_source_url": "https://raw.githubusercontent.com/liberationfonts/liberation-1.7-fonts/1b25642191bb57c05d128f6a20d9567e3079c2b8/src/LiberationSans-Bold.sfd",
+      "upstream_sfd_byte_match": true
+    },
+    {
+      "font": "LiberationSans-Italic",
+      "bundled_ttf": "ui/vendor/pdfjs/standard_fonts/LiberationSans-Italic.ttf",
+      "ttf_bytes": 162036,
+      "ttf_sha256": "832b4406dbef23628800d3aaad21048534ac84d7e3ad955be83b8172ed8ef512",
+      "pdfjs_reference_url": "https://raw.githubusercontent.com/mozilla/pdf.js/v6.4.299/external/standard_fonts/LiberationSans-Italic.ttf",
+      "pdfjs_byte_match": true,
+      "archive_sfd": "liberation-fonts-1.07.4/src/LiberationSans-Italic.sfd",
+      "sfd_sha256": "ad9034d03d1c1c4e764b7e131891486e31a6c2d6590a3021e8cfa6f967995231",
+      "upstream_source_url": "https://raw.githubusercontent.com/liberationfonts/liberation-1.7-fonts/1b25642191bb57c05d128f6a20d9567e3079c2b8/src/LiberationSans-Italic.sfd",
+      "upstream_sfd_byte_match": true
+    },
+    {
+      "font": "LiberationSans-BoldItalic",
+      "bundled_ttf": "ui/vendor/pdfjs/standard_fonts/LiberationSans-BoldItalic.ttf",
+      "ttf_bytes": 135124,
+      "ttf_sha256": "a224075ac17495ad0a3af3bc0a419ac0704a8b3fd1095456201fb9b095fc281d",
+      "pdfjs_reference_url": "https://raw.githubusercontent.com/mozilla/pdf.js/v6.4.299/external/standard_fonts/LiberationSans-BoldItalic.ttf",
+      "pdfjs_byte_match": true,
+      "archive_sfd": "liberation-fonts-1.07.4/src/LiberationSans-BoldItalic.sfd",
+      "sfd_sha256": "3d547dc11bd35cfc8a59f79911844e3538393e2d169820eeae68fa631498a749",
+      "upstream_source_url": "https://raw.githubusercontent.com/liberationfonts/liberation-1.7-fonts/1b25642191bb57c05d128f6a20d9567e3079c2b8/src/LiberationSans-BoldItalic.sfd",
+      "upstream_sfd_byte_match": true
+    }
+  ],
+  "preserved_vendor_notice_sha256": {
+    "ui/vendor/pdfjs/LICENSE": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "ui/vendor/pdfjs/standard_fonts/LICENSE_LIBERATION": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc",
+    "ui/vendor/pdfjs/standard_fonts/LICENSE_FOXIT": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7",
+    "ui/vendor/pdfjs/cmaps/LICENSE": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
+  },
+  "limits": [
+    "No PGP signature verification.",
+    "No FontForge build or bit-for-bit rebuild comparison.",
+    "Source scripts were not executed and no font was installed.",
+    "This is technical provenance and packaging verification, not a blanket legal-compliance opinion.",
+    "Final distribution ZIPs are not created by this audit."
+  ]
+}

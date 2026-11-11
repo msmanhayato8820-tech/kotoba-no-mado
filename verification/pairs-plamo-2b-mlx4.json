@@ -1,0 +1,83 @@
+{
+  "model": "pfnet/plamo-3-translate-2b-MLX-4bit",
+  "revision": "b715145bec63f0dfe877699adbef182439b2047a",
+  "date": "2026-11-11",
+  "machine": "Apple Silicon Mac, 32 GiB (development machine)",
+  "app": "0.6 development build, in-app browser",
+  "method": "Self-written public short samples. One run per pair. A returned translation is execution evidence only, not a quality judgement.",
+  "results": [
+    {
+      "source": "fr",
+      "target": "en",
+      "input": "Il fait beau aujourd'hui. Je vais au parc avec ma famille.",
+      "output": "It's nice weather today. I'm going to the park with my family.",
+      "seconds": 0.38,
+      "back_translation": "Il fait beau aujourd'hui. Je vais au parc avec ma famille.",
+      "status": "official"
+    },
+    {
+      "source": "en",
+      "target": "fr",
+      "input": "The library is closed every Monday.",
+      "output": "La bibliothèque est fermée tous les lundis.",
+      "seconds": 0.4,
+      "back_translation": "The library is closed every Monday.",
+      "status": "official"
+    },
+    {
+      "source": "auto",
+      "target": "en",
+      "input": "Il fait beau aujourd'hui. Je vais au parc avec ma famille.",
+      "output": "The weather is nice today. I'm going to the park with my family.",
+      "seconds": 0.32,
+      "back_translation": null,
+      "status": "unknown",
+      "note": "source detected by the model; back-translation is refused for auto"
+    },
+    {
+      "source": "auto",
+      "target": "ja",
+      "input": "The library is closed every Monday.",
+      "output": "図書館は毎週月曜日は休館です。",
+      "seconds": 0.23,
+      "back_translation": null,
+      "status": "unknown"
+    },
+    {
+      "source": "de",
+      "target": "fr",
+      "input": "Heute ist schönes Wetter. Ich gehe mit meiner Familie in den Park.",
+      "output": "Il fait beau aujourd'hui. Je vais au parc avec ma famille.",
+      "seconds": 0.49,
+      "back_translation": "Heute ist es schön. Ich gehe mit meiner Familie in den Park.",
+      "status": "unevaluated"
+    },
+    {
+      "source": "ko",
+      "target": "en",
+      "input": "오늘은 날씨가 좋습니다. 가족과 함께 공원에 갑니다.",
+      "output": "The weather is nice today. I'm going to the park with my family.",
+      "seconds": 0.35,
+      "back_translation": "오늘 날씨가 좋네요. 가족과 함께 공원에 가려고 해요.",
+      "status": "official"
+    },
+    {
+      "source": "ja",
+      "target": "en",
+      "input": "今日は晴れです。私は家族と公園に行きます。",
+      "output": "It's sunny today. I'm going to the park with my family.",
+      "seconds": 0.27,
+      "back_translation": null,
+      "status": "official"
+    }
+  ],
+  "document": {
+    "source": "en",
+    "target": "fr",
+    "parts": 2,
+    "chunk": 300,
+    "output_excerpt": "Actualités de la bibliothèque communautaire (document d'exemple pour test) …",
+    "note": "document mode, paragraph breaks kept"
+  },
+  "limits": "No native-speaker review. Pairs not listed here were not tried. Back-translation matching the input does not prove accuracy."
+}
